@@ -1,5 +1,5 @@
-### Thank you for your support and please follow and star!
+### Thank you for your support! Please follow and star!
 
-[Donations accepted](https://www.paypal.com/donate?business=GKLE6HYQE46SA&no_recurring=0&item_name=i%21i%21i%21+NOTE+WHAT+THIS+DONATION+IS+FOR+i%21i%21i%21&currency_code=USD)
+[Donations accepted at PayPal](https://www.paypal.com/donate?business=GKLE6HYQE46SA&no_recurring=0&item_name=i%21i%21i%21+NOTE+WHAT+THIS+DONATION+IS+FOR+i%21i%21i%21&currency_code=USD)
 
 **xCONFLiCTiONx/xCONFLiCTiONx**
