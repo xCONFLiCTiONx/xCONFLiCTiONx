@@ -1,4 +1,0 @@
-User-agent: *
-Disallow: *.pdf
-Disallow: /404.html
-Sitemap: /sitemap.xml

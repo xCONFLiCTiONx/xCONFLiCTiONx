@@ -1,12 +1,16 @@
 ---
 layout: default
-title: 404 - Page not found
+title: 404
+hide-in-nav: true
+description: "Oh no! :("
+header-img: "img/home-bg.jpg"
 permalink: /404.html
 ---
 
-<div class="text-center">
-  <h1>Whoops, this page doesn't exist.</h1>
-  <h1>Sorry about that! (404 error)</h1>
-  <br/>
-  <img src="{{ 'assets/img/icon.png' | relative_url }}" alt="Not found" />
-</div>
+
+<!-- Page Header -->
+{% include intro-header.html type="page" short='true' %}
+
+<script>
+	document.body.classList.add('page-fullscreen');
+</script>
