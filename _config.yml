@@ -4,8 +4,8 @@ SEOTitle: xCONFLiCTiONx
 header-img: img/home-bg.jpg
 description: "Documentation of research I've done that could save you time and headaches"
 keyword: "documentation, research, github, projects, opensource, free, blog, google, bing, facebook, twitter, api"
-url: "https://xconflictionx.github.io/xCONFLiCTiONx/"              # your host, for absolute URL
-baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
+url: "https://xconflictionx.github.io"              # your host, for absolute URL
+baseurl: "/xCONFLiCTiONx"                             # for example, '/blog' if your blog hosted on 'host/blog'
 
 
 # Publish posts or collection documents with a future date.
