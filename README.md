@@ -1,6 +1,5 @@
-# Portfolio
-A collection of my work in a single organized place (a great referencing point)
-  
-  
-**Actual Page that contains the collection**
-https://xconflictionx.github.io/Portfolio/
+Thank you for your support! Please follow and star!  
+
+Donations accepted at [PayPal.Me/xCONFLiCTiONx](https://PayPal.Me/xCONFLiCTiONx)  
+
+[xCONFLiCTiONx](https://github.com/xCONFLiCTiONx)
