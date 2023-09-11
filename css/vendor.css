@@ -545,7 +545,7 @@ Arrow buttons hit area
 .pswp__share-tooltip {
     z-index: 1620;
     position: absolute;
-    background: #1E1E1E;
+    background: #FFF;
     top: 56px;
     border-radius: 3px;
     display: block;
@@ -565,7 +565,7 @@ Arrow buttons hit area
 .pswp__share-tooltip a {
     display: block;
     padding: 9px 15px;
-    color: #FFF;
+    color: #000;
     text-decoration: none;
     font-size: 13px;
     line-height: 18px;
@@ -573,7 +573,7 @@ Arrow buttons hit area
 
 .pswp__share-tooltip a:hover {
     text-decoration: none;
-    color: #FFF;
+    color: #000;
 }
 
 .pswp__share-tooltip a:first-child {
@@ -618,7 +618,7 @@ a.pswp__share--facebook:before {
 }
 
 a.pswp__share--facebook:hover {
-    background: #1E1E1E;
+    background: #3E5C9A;
     color: #FFF;
 }
 
@@ -637,7 +637,7 @@ a.pswp__share--pinterest:hover {
 }
 
 a.pswp__share--download:hover {
-    background: #1E1E1E;
+    background: #DDD;
 }
 
 
@@ -674,12 +674,12 @@ a.pswp__share--download:hover {
     font-size: 1.8rem;
     line-height: 1.333;
     margin: 0 0 .6rem;
-    color: #DDD;
+    color: #FFFFFF;
 }
 
 .pswp__caption small {
     font-size: 11px;
-    color: rgba(30, 30, 30, 0.5);
+    color: rgba(255, 255, 255, 0.5);
 }
 
 .pswp__caption__center {
@@ -689,7 +689,7 @@ a.pswp__share--download:hover {
     font-size: 13px;
     padding: 10px;
     line-height: 20px;
-    color: rgba(30, 30, 30, 0.5);
+    color: rgba(255, 255, 255, 0.5);
 }
 
 .pswp__caption--empty {
@@ -952,7 +952,7 @@ a.pswp__share--download:hover {
  * ------------------------------------------------------------------- */
 
 .prettyprint {
-    background: #1E1E1E;
+    background: #F1F1F1;
     font-family: Menlo, 'Bitstream Vera Sans Mono', 'DejaVu Sans Mono', Monaco, Consolas, monospace;
     font-size: 12px;
     line-height: 1.5;
