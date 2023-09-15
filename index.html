@@ -51,7 +51,7 @@
 
         <nav class="header-nav-wrap">
             <ul class="header-nav">
-                <li class="current"><a href="/" title="Home">Home</a></li>
+                <li class="current"><a href="#top" title="Home">Home</a></li>
                 <li><a class="smoothscroll" href="#about" title="More">About</a></li>
             </ul>
         </nav>
@@ -287,6 +287,12 @@
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
+    <script>
+        $("a[href='#top']").click(function() {
+        $("html, body").animate({ scrollTop: 0 }, "slow");
+            return false;
+        });
+    </script>
 
 </body>
 
