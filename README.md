@@ -102,21 +102,21 @@ I design and build software where <strong>performance, local-first control, and 
 <table align="center" width="96%">
 <tr>
 <td width="50%" valign="top">
-  <h3>🔭 <a href="https://github.com/xCONFLiCTiONx/GitScope">GitScope Desktop</a></h3>
+  <h3>🔭 <a href="url?id=3" target="_blank" rel="noopener noreferrer">GitScope</a></h3>
   <p><sub>A high-performance, local-first Git management suite built using Electron, Monaco Editor, and xterm.js for complete repository control.</sub></p>
 </td>
 <td width="50%" valign="top">
-  <h3>🛠️ <a href="https://github.com/xCONFLiCTiONx/xToolsMenu">xToolsMenu</a></h3>
+  <h3>🛠️ <a href="https://github.com/xCONFLiCTiONx/xToolsMenu" target="_blank" rel="noopener noreferrer">xToolsMenu</a></h3>
   <p><sub>Native Windows system utilities built in C++ utilizing IExplorerCommand interfaces and Windows Sparse Packages.</sub></p>
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-  <h3>💾 <a href="https://github.com/xCONFLiCTiONx/xBackup">xBackup</a></h3>
+  <h3>💾 <a href="https://github.com/xCONFLiCTiONx/xBackup" target="_blank" rel="noopener noreferrer">xBackup</a></h3>
   <p><sub>A reliable local-first backup and snapshot utility designed for automated system state preservation and data protection.</sub></p>
 </td>
 <td width="50%" valign="top">
-  <h3>🛡️ <a href="https://github.com/xCONFLiCTiONx/Call-Guard-Shield">Call Guard Shield</a></h3>
+  <h3>🛡️ <a href="https://github.com/xCONFLiCTiONx/Call-Guard-Shield" target="_blank" rel="noopener noreferrer">Call Guard Shield</a></h3>
   <p><sub>Advanced call filtering and communication architecture designed to intercept, screen, and manage unwanted disruptions.</sub></p>
 </td>
 </tr>
