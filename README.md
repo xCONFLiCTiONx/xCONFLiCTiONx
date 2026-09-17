@@ -102,7 +102,7 @@ I design and build software where <strong>performance, local-first control, and 
 <table align="center" width="96%">
 <tr>
 <td width="50%" valign="top">
-  <h3>🔭 <a href="url?id=3" target="_blank" rel="noopener noreferrer">GitScope</a></h3>
+  <h3>🔭 <a href="https://github.com/xCONFLiCTiONx/GitScope" target="_blank" rel="noopener noreferrer">GitScope</a></h3>
   <p><sub>A high-performance, local-first Git management suite built using Electron, Monaco Editor, and xterm.js for complete repository control.</sub></p>
 </td>
 <td width="50%" valign="top">
