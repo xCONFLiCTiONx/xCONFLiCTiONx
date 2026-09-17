@@ -7,7 +7,6 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/LOCAL--FIRST-DESKTOP-020617?style=for-the-badge&labelColor=020617&color=6366f1" alt="Local-first" />
-  <img src="https://img.shields.io/badge/C++-020617?style=for-the-badge&labelColor=020617&color=06b6d4" alt="C++" />
   <img src="https://img.shields.io/badge/CHROME--EXTENSIONS-020617?style=for-the-badge&labelColor=020617&color=8b5cf6" alt="Chrome Extensions" />
   <img src="https://img.shields.io/badge/SYSTEM--TOOLS-020617?style=for-the-badge&labelColor=020617&color=ec4899" alt="System Tools" />
 </p>
