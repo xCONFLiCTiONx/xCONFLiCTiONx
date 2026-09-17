@@ -1,10 +1,13 @@
+<!-- ========================================================= -->
+<!--                     PREMIUM HERO                          -->
+<!-- ========================================================= -->
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=2600&pause=850&color=60A5FA&center=true&vCenter=true&width=850&height=50&lines=SOFTWARE+DEVELOPER+%26+TOOLSMITH;BUILDING+LOCAL-FIRST+DESKTOP+APPS;C+++%7C+ELECTRON+%7C+WINDOWS+INTEGRATION;CHROME+EXTENSIONS+%7C+AUTOMATION+SYSTEMS;ENGINEERED+FOR+SPEED+AND+CONTROL" alt="Typing introduction" />
 </p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/LOCAL--FIRST-DESKTOP-020617?style=for-the-badge&labelColor=020617&color=6366f1" alt="Local-first" />
-  <img src="https://img.shields.io/badge/ELECTRON--C++-020617?style=for-the-badge&labelColor=020617&color=06b6d4" alt="Electron & C++" />
+  <img src="https://img.shields.io/badge/C++-020617?style=for-the-badge&labelColor=020617&color=06b6d4" alt="Electron & C++" />
   <img src="https://img.shields.io/badge/CHROME--EXTENSIONS-020617?style=for-the-badge&labelColor=020617&color=8b5cf6" alt="Chrome Extensions" />
   <img src="https://img.shields.io/badge/SYSTEM--TOOLS-020617?style=for-the-badge&labelColor=020617&color=ec4899" alt="System Tools" />
 </p>
@@ -91,13 +94,6 @@ I design and build software where <strong>performance, local-first control, and 
 
 <br />
 
-<h2 align="center">Languages</h2>
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=cpp,ts,js,python,autohotkey,html,css&perline=7&theme=dark" alt="Languages" />
-</p>
-
-<br />
-
 <!-- ========================================================= -->
 <!--                     PROJECTS SECTION                      -->
 <!-- ========================================================= -->
@@ -144,3 +140,9 @@ I design and build software where <strong>performance, local-first control, and 
 </td>
 </tr>
 </table>
+
+<br />
+
+<div align="center">
+  <sub>⚡ Engineered for speed, control, and local-first reliability.</sub>
+</div>
