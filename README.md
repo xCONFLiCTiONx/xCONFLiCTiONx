@@ -7,7 +7,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/LOCAL--FIRST-DESKTOP-020617?style=for-the-badge&labelColor=020617&color=6366f1" alt="Local-first" />
-  <img src="https://img.shields.io/badge/C++-020617?style=for-the-badge&labelColor=020617&color=06b6d4" alt="Electron & C++" />
+  <img src="https://img.shields.io/badge/C++-020617?style=for-the-badge&labelColor=020617&color=06b6d4" alt="C++" />
   <img src="https://img.shields.io/badge/CHROME--EXTENSIONS-020617?style=for-the-badge&labelColor=020617&color=8b5cf6" alt="Chrome Extensions" />
   <img src="https://img.shields.io/badge/SYSTEM--TOOLS-020617?style=for-the-badge&labelColor=020617&color=ec4899" alt="System Tools" />
 </p>
@@ -102,22 +102,22 @@ I design and build software where <strong>performance, local-first control, and 
 <table align="center" width="96%">
 <tr>
 <td width="50%" valign="top">
-  <h3>🔭 GitScope Desktop</h3>
+  <h3>🔭 <a href="https://github.com/xCONFLiCTiONx/GitScope">GitScope Desktop</a></h3>
   <p><sub>A high-performance, local-first Git management suite built using Electron, Monaco Editor, and xterm.js for complete repository control.</sub></p>
 </td>
 <td width="50%" valign="top">
-  <h3>🛠️ xToolsMenu</h3>
+  <h3>🛠️ <a href="https://github.com/xCONFLiCTiONx/xToolsMenu">xToolsMenu</a></h3>
   <p><sub>Native Windows system utilities built in C++ utilizing IExplorerCommand interfaces and Windows Sparse Packages.</sub></p>
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-  <h3>🧩 Chrome Extensions Suite</h3>
-  <p><sub>Productivity tools including Allow Copy Paste, Cookie & Storage Manager, Element-Hider, and local PDF toolsets.</sub></p>
+  <h3>💾 <a href="https://github.com/xCONFLiCTiONx/xBackup">xBackup</a></h3>
+  <p><sub>A reliable local-first backup and snapshot utility designed for automated system state preservation and data protection.</sub></p>
 </td>
 <td width="50%" valign="top">
-  <h3>⚡ AHK System Automation</h3>
-  <p><sub>AutoHotkey v2 scripts crafted for precision display adjustments, HDR state monitoring, color sampling, and system audio triggers.</sub></p>
+  <h3>🛡️ <a href="https://github.com/xCONFLiCTiONx/Call-Guard-Shield">Call Guard Shield</a></h3>
+  <p><sub>Advanced call filtering and communication architecture designed to intercept, screen, and manage unwanted disruptions.</sub></p>
 </td>
 </tr>
 </table>
