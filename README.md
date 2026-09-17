@@ -1,90 +1,137 @@
-<div align="center">
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=2600&pause=850&color=60A5FA&center=true&vCenter=true&width=850&height=50&lines=SOFTWARE+DEVELOPER+%26+TOOLSMITH;BUILDING+LOCAL-FIRST+DESKTOP+APPS;C+++%7C+ELECTRON+%7C+WINDOWS+INTEGRATION;CHROME+EXTENSIONS+%7C+AUTOMATION+SYSTEMS;ENGINEERED+FOR+SPEED+AND+CONTROL" alt="Typing introduction" />
+</p>
 
-# ⚡ MICHAEL (xCONFLiCTiONx)
-
-**SOFTWARE DEVELOPER & TOOLSMITH**  
-<sub>BUILDING LOCAL-FIRST DESKTOP APPS • EXTENSION ARCHITECTURE • EFFICIENT UTILITIES</sub>
-
-<div style="pointer-events: none;">
-  <img src="https://img.shields.io/badge/LOCAL--FIRST-DESKTOP-111827?style=for-the-badge" alt="Local-first desktop" />
-  <img src="https://img.shields.io/badge/ELECTRON-C++-111827?style=for-the-badge" alt="Electron and C++" />
-  <img src="https://img.shields.io/badge/CHROME-EXTENSIONS-111827?style=for-the-badge" alt="Chrome extensions" />
-</div>
-
-</div>
+<p align="center">
+  <img src="https://img.shields.io/badge/LOCAL--FIRST-DESKTOP-020617?style=for-the-badge&labelColor=020617&color=6366f1" alt="Local-first" />
+  <img src="https://img.shields.io/badge/ELECTRON--C++-020617?style=for-the-badge&labelColor=020617&color=06b6d4" alt="Electron & C++" />
+  <img src="https://img.shields.io/badge/CHROME--EXTENSIONS-020617?style=for-the-badge&labelColor=020617&color=8b5cf6" alt="Chrome Extensions" />
+  <img src="https://img.shields.io/badge/SYSTEM--TOOLS-020617?style=for-the-badge&labelColor=020617&color=ec4899" alt="System Tools" />
+</p>
 
 <br />
 
-<div align="center">
-  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png" width="80%" />
-</div>
+<!-- ========================================================= -->
+<!--                    PROFILE INTRO                          -->
+<!-- ========================================================= -->
+<table align="center" width="96%">
+<tr>
+<td width="58%" valign="top">
 
-## 🛠️ Domain Mastery & Technical Ecosystem
+<h2>◈ Engineering With Purpose</h2>
+<p>
+I design and build software where <strong>performance, local-first control, and practical utility</strong> meet. My focus is on turning real workflow friction into clean, reliable tools that run smoothly and respect user ownership—ranging from high-performance desktop suites to native Windows integrations and browser extensions.
+</p>
 
-<div align="center">
+<table>
+<tr>
+<td><strong>Desktop & Core</strong><br /><sub>Electron · C++ · Monaco Editor · xterm.js</sub></td>
+<td><strong>Extensions & Web</strong><br /><sub>Chrome Extension APIs · TypeScript · JavaScript</sub></td>
+</tr>
+<tr>
+<td><strong>System & OS</strong><br /><sub>Windows Sparse Packages · IExplorerCommand · Linux</sub></td>
+<td><strong>Automation</strong><br /><sub>AutoHotkey v2 · MSBuild · PowerShell</sub></td>
+</tr>
+</table>
 
-| 🏗️ Core Languages & Logic | 🖥️ Desktop & System Core | 🌐 Web, Extensions & UI |
-|:---:|:---:|:---:|
-| <br><img src="https://skillicons.dev/icons?i=cpp,ts,js,py,autohotkey&perline=5" /><br> | <br><img src="https://skillicons.dev/icons?i=electron,windows,linux,powershell,vscode&perline=5" /><br> | <br><img src="https://skillicons.dev/icons?i=react,html,css,git,github&perline=5" /><br> |
-
-</div>
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png" width="80%" />
-</div>
-
-## 🚀 Core Architecture & Projects
-
-<div align="center">
-
-| Project | System Focus | Technological Core | Status |
-| :--- | :--- | :--- | :--- |
-| **GitScope Desktop** | Local-First Git Management | `Electron` `Monaco` `xterm.js` | 🟢 **Active** |
-| **xTools & XtendedMenu** | Windows System Integration | `C++` `IExplorerCommand` `Sparse Packages` | 🟢 **Nominal** |
-| **Chrome Extensions Suite** | Browser Utility & Productivity | `Extension APIs` `TypeScript` `JavaScript` | 🟢 **Production** |
-| **AHK System Automations** | Resolution, HDR & Audioing | `AutoHotkey v2` `MSBuild` `PowerShell` | 🟢 **Verified** |
-
-</div>
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png" width="80%" />
-</div>
-
-## 📂 Strategic Systems Portfolio
-
-<details open>
-<summary><b>🔭 Desktop Suites & Tooling</b></summary>
-
-| System | Description |
-| :--- | :--- |
-| **GitScope Desktop** | A local-first Git management suite utilizing Electron, Monaco Editor, and xterm.js for high-performance repository control. |
-| **xTools** | Custom native utilities built with C++ and Windows Sparse Packages for deep system workflows. |
-
-</details>
-
-<details>
-<summary><b>🧩 Browser Extensions & Extensions Architecture</b></summary>
-
-| Extension | Purpose |
-| :--- | :--- |
-| **Allow Copy Paste** | Unlocking clipboard restrictions seamlessly across web pages. |
-| **Cookie & Storage Manager** | Granular local browser data inspection and management. |
-| **Element-Hider & PDF Tools** | Streamlining page clutter and handling local document workflows. |
-
-</details>
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png" width="80%" />
-</div>
-
-<div align="center">
-  <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=xCONFLiCTiONx&show_icons=true&theme=algolia&bg_color=001f3f&title_color=00d4ff&text_color=ffffff&icon_color=00d4ff&hide_border=true" height="170" />
-  <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=xCONFLiCTiONx&layout=donut&theme=algolia&bg_color=001f3f&title_color=00d4ff&text_color=ffffff&icon_color=00d4ff&border_color=00d4ff&hide_active_border=true" height="170" />
-</div>
+</td>
+<td width="42%" align="center" valign="middle">
+  <img src="https://img.shields.io/badge/STATUS-BUILDING%20TOOLS-020617?style=for-the-badge&labelColor=020617&color=22c55e" alt="Status" />
+  <br /><br />
+  <sub>ARCHITECT • BUILD • SHIP • MAINTAIN</sub>
+</td>
+</tr>
+</table>
 
 <br />
 
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=100&section=footer&text=BUILD%20•%20SHIP%20•%20AUTOMATE&fontSize=22&fontColor=ffffff&animation=twinkling" width="100%" alt="Footer wave" />
-  <sub>⚡ Engineered for speed, control, and local-first reliability.</sub>
-</div>
+<!-- ========================================================= -->
+<!--                    TECHNOLOGY MATRIX                      -->
+<!-- ========================================================= -->
+<h1 align="center">Technology Universe</h1>
+<p align="center">
+  <sub>The practical stack behind local-first desktop apps, native tooling, and browser extensions.</sub>
+</p>
+
+<br />
+
+<table align="center" width="96%">
+<tr>
+<td width="25%" align="center" valign="top">
+  <img src="https://skillicons.dev/icons?i=cpp,electron,vscode,git,github&perline=3&theme=dark" alt="Core" />
+  <h3>Core & IDE</h3>
+  <p><sub>C++<br>Electron<br>VS Code<br>Git & GitHub<br>MSBuild</sub></p>
+</td>
+<td width="25%" align="center" valign="top">
+  <img src="https://skillicons.dev/icons?i=ts,js,react,html,css&perline=3&theme=dark" alt="Web" />
+  <h3>Web & UI</h3>
+  <p><sub>TypeScript<br>JavaScript<br>React<br>HTML / CSS<br>Monaco Editor</sub></p>
+</td>
+<td width="25%" align="center" valign="top">
+  <img src="https://skillicons.dev/icons?i=windows,linux,powershell&perline=3&theme=dark" alt="System" />
+  <h3>System OS</h3>
+  <p><sub>Windows Shell<br>Linux<br>PowerShell<br>Sparse Packages<br>xterm.js</sub></p>
+</td>
+<td width="25%" align="center" valign="top">
+  <img src="https://skillicons.dev/icons?i=python,autohotkey&perline=3&theme=dark" alt="Automation" />
+  <h3>Automation</h3>
+  <p><sub>AutoHotkey v2<br>Python<br>Display Control<br>Audio Detection<br>HDR Monitoring</sub></p>
+</td>
+</tr>
+</table>
+
+<br />
+
+<h2 align="center">Languages</h2>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=cpp,ts,js,python,autohotkey,html,css&perline=7&theme=dark" alt="Languages" />
+</p>
+
+<br />
+
+<!-- ========================================================= -->
+<!--                     PROJECTS SECTION                      -->
+<!-- ========================================================= -->
+<h1 align="center">Featured Projects & Systems</h1>
+
+<table align="center" width="96%">
+<tr>
+<td width="50%" valign="top">
+  <h3>🔭 GitScope Desktop</h3>
+  <p><sub>A high-performance, local-first Git management suite built using Electron, Monaco Editor, and xterm.js for complete repository control.</sub></p>
+</td>
+<td width="50%" valign="top">
+  <h3>🛠️ xTools & XtendedMenu</h3>
+  <p><sub>Native Windows system utilities built in C++ utilizing IExplorerCommand interfaces and Windows Sparse Packages.</sub></p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+  <h3>🧩 Chrome Extensions Suite</h3>
+  <p><sub>Productivity tools including Allow Copy Paste, Cookie & Storage Manager, Element-Hider, and local PDF toolsets.</sub></p>
+</td>
+<td width="50%" valign="top">
+  <h3>⚡ AHK System Automation</h3>
+  <p><sub>AutoHotkey v2 scripts crafted for precision display adjustments, HDR state monitoring, color sampling, and system audio triggers.</sub></p>
+</td>
+</tr>
+</table>
+
+<br />
+
+<!-- ========================================================= -->
+<!--                    PROFILE METRICS                        -->
+<!-- ========================================================= -->
+<table align="center">
+<tr>
+<td align="center">
+  <img src="https://komarev.com/ghpvc/?username=xCONFLiCTiONx&style=for-the-badge&color=6366f1&label=PROFILE+VIEWS" alt="Views" />
+</td>
+<td align="center">
+  <img src="https://img.shields.io/github/followers/xCONFLiCTiONx?style=for-the-badge&label=FOLLOWERS&labelColor=020617&color=06b6d4" alt="Followers" />
+</td>
+<td align="center">
+  <img src="https://img.shields.io/github/stars/xCONFLiCTiONx?style=for-the-badge&label=STARS&labelColor=020617&color=f59e0b" alt="Stars" />
+</td>
+</tr>
+</table>
