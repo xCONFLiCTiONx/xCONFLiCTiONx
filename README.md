@@ -106,7 +106,7 @@ I design and build software where <strong>performance, local-first control, and 
   <p><sub>A high-performance, local-first Git management suite built using Electron, Monaco Editor, and xterm.js for complete repository control.</sub></p>
 </td>
 <td width="50%" valign="top">
-  <h3>🛠️ xTools & XtendedMenu</h3>
+  <h3>🛠️ xToolsMenu</h3>
   <p><sub>Native Windows system utilities built in C++ utilizing IExplorerCommand interfaces and Windows Sparse Packages.</sub></p>
 </td>
 </tr>
