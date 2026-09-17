@@ -14,31 +14,40 @@
 <!-- ========================================================= -->
 <!--                    PROFILE INTRO                          -->
 <!-- ========================================================= -->
-<table align="center" width="96%">
-<tr>
-<td width="58%" valign="top">
+<div align="center">
 
 <h2>◈ Engineering With Purpose</h2>
-<p>
+<p width="80%">
 I design and build software where <strong>performance, local-first control, and practical utility</strong> meet. My focus is on turning real workflow friction into clean, reliable tools that run smoothly and respect user ownership—ranging from high-performance desktop suites to native Windows integrations and browser extensions.
 </p>
 
-<table>
-<tr>
-<td><strong>Desktop & Core</strong><br /><sub>Electron · C++ · Monaco Editor · xterm.js</sub></td>
-<td><strong>Extensions & Web</strong><br /><sub>Chrome Extension APIs · TypeScript · JavaScript</sub></td>
-</tr>
-<tr>
-<td><strong>System & OS</strong><br /><sub>Windows Sparse Packages · IExplorerCommand · Linux</sub></td>
-<td><strong>Automation</strong><br /><sub>AutoHotkey v2 · MSBuild · PowerShell</sub></td>
-</tr>
-</table>
+<img src="https://img.shields.io/badge/STATUS-BUILDING%20TOOLS-020617?style=for-the-badge&labelColor=020617&color=22c55e" alt="Status" />
+<br />
+<sub>ARCHITECT • BUILD • SHIP • MAINTAIN</sub>
 
+</div>
+
+<br />
+
+<table align="center" width="96%">
+<tr>
+<td width="50%" valign="top">
+<strong>Desktop & Core</strong><br />
+<sub>Electron · C++ · Monaco Editor · xterm.js</sub>
 </td>
-<td width="42%" align="center" valign="middle">
-  <img src="https://img.shields.io/badge/STATUS-BUILDING%20TOOLS-020617?style=for-the-badge&labelColor=020617&color=22c55e" alt="Status" />
-  <br /><br />
-  <sub>ARCHITECT • BUILD • SHIP • MAINTAIN</sub>
+<td width="50%" valign="top">
+<strong>Extensions & Web</strong><br />
+<sub>Chrome Extension APIs · TypeScript · JavaScript</sub>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<strong>System & OS</strong><br />
+<sub>Windows Sparse Packages · IExplorerCommand · Linux</sub>
+</td>
+<td width="50%" valign="top">
+<strong>Automation</strong><br />
+<sub>AutoHotkey v2 · MSBuild · PowerShell</sub>
 </td>
 </tr>
 </table>
