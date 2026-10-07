@@ -52,17 +52,34 @@ m.youtube.com,music.youtube.com,tv.youtube.com,www.youtube.com,youtubekids.com,y
 */blockadblock-$script,redirect=fuckadblock.js-3.2.0:5
 */wp-adblock-$script,redirect=fuckadblock.js-3.2.0:5
 
-! --- Element-Hiding and Cosmetic Block Rules ---
-example.com##.sponsored-post-container
-example.org##div[id*="native-ad-"]
-aranzulla.it##.banner:remove()
-aranzulla.it##[id^="ad"]:remove()
-uol.com.br##.bg-banner
-uol.com.br##[id^="banner-300x250"]:remove()
+! Title: xPrivacy Guard Extension Test Filter
+! Last modified: 2026-10-06
+! Description: Test filter for verifying xPrivacy Guard custom filter-list support.
 
-! --- Verification & Test Rules ---
-! 1. Network Blocking Test: Blocks a harmless tracking request to verify network interception
-||block-test.example.com^$all
+! --- Network blocking tests ---
+||example.com/test-xprivacyguard.js$script
+||example.com/test-xprivacyguard.css$stylesheet
+||example.com/test-xprivacyguard.png$image
+||example.com/test-xprivacyguard.gif$image
+||example.com/test-xprivacyguard.json$xmlhttprequest
 
-! 2. Cosmetic Hiding Test: Injects a visual proof badge on example.com and example.org
-example.com,example.org##body:before { content: "✓ Custom Privacy & Tracker Filters Active"; display: block; background: #0d1117; color: #58a6ff; padding: 12px; text-align: center; font-weight: bold; font-family: sans-serif; z-index: 999999; }
+! --- Cosmetic filtering tests ---
+example.com###xprivacyguard-test
+example.com##.xprivacyguard-test
+example.com##[data-xprivacyguard-test]
+
+! --- Known tracker/ad domains ---
+||doubleclick.net^
+||googlesyndication.com^
+||googleadservices.com^
+||adservice.google.com^
+||connect.facebook.net^
+||analytics.google.com^
+||googletagmanager.com^
+
+! --- URL parameter tests ---
+||example.com^$removeparam=utm_source
+||example.com^$removeparam=utm_medium
+||example.com^$removeparam=utm_campaign
+||example.com^$removeparam=fbclid
+||example.com^$removeparam=gclid
