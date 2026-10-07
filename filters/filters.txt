@@ -1,9 +1,12 @@
 ! Title: Custom App Privacy & Tracker Filters
 ! Last modified: 2026-10-06
-! Description: Custom blocklist combining uBlock essentials with core telemetry, tracking, and ad-network protection.
+! Description: Custom privacy rules for xPrivacy Guard covering app telemetry, analytics, tracking SDKs, advertising infrastructure, social pixels, and additional privacy-hostile endpoints not already covered by the user's EasyList/EasyPrivacy/uBlock lists.
 !
 
-! --- Modern Telemetry, Analytics, and Data Harvesting Endpoints ---
+! ============================================================
+! APPLICATION TELEMETRY / ANALYTICS
+! ============================================================
+
 ||sentry.io^$all
 ||mixpanel.com^$all
 ||amplitude.com^$all
@@ -14,8 +17,39 @@
 ||adjust.com^$all
 ||branch.io^$all
 ||raygun.io^$all
+||heap.io^$all
+||heapanalytics.com^$all
+||fullstory.com^$all
+||mouseflow.com^$all
+||logrocket.com^$all
+||smartlook.com^$all
+||luckyorange.com^$all
+||crazyegg.com^$all
+||quantummetric.com^$all
+||contentsquare.net^$all
+||glassboxdigital.io^$all
+||mopinion.com^$all
 
-! --- Common Ad-Network & Tracker CDN Domains ---
+! ============================================================
+! MOBILE / APP ATTRIBUTION & TRACKING SDKs
+! ============================================================
+
+||kochava.com^$all
+||singular.net^$all
+||branch.io^$all
+||tapjoy.com^$all
+||app-measurement.com^$all
+||firebaseinstallations.googleapis.com^$all
+||firebaseinappmessaging.googleapis.com^$all
+||firebaselogging-pa.googleapis.com^$all
+||crashlytics.com^$all
+||in.appcenter.ms^$all
+||appcenter.ms^$all
+
+! ============================================================
+! AD NETWORKS / REAL-TIME BIDDING
+! ============================================================
+
 ||doubleclick.net^$all
 ||googlesyndication.com^$all
 ||adnxs.com^$all
@@ -26,17 +60,189 @@
 ||taboola.com^$all
 ||outbrain.com^$all
 ||amazon-adsystem.com^$all
+||advertising.com^$all
+||33across.com^$all
+||appnexus.com^$all
+||casalemedia.com^$all
+||indexexchange.com^$all
+||lijit.com^$all
+||smaato.net^$all
+||smartadserver.com^$all
+||teads.tv^$all
+||triplelift.com^$all
+||yieldmo.com^$all
+||sharethrough.com^$all
+||sonobi.com^$all
 
-! --- Social Media Tracking & Pixel Injection Vectors ---
+! ============================================================
+! SOCIAL TRACKING / PIXELS
+! ============================================================
+
 ||connect.facebook.net^$script
 ||platform.twitter.com/widgets.js$script
 ||linkedin.com/px/li_track$all
 ||tiktok.com/i18n/pixel/events.js$script
 ||snap.licdn.com^$script
 ||pinterest.com/ct.js$script
+||bat.bing.com^$script
+||analytics.twitter.com^$all
+||ads-api.twitter.com^$all
+||analytics.tiktok.com^$all
+||business-api.tiktok.com^$all
 
-! --- Original Core uBlock Video and Domain Protection Rules ---
-! https://github.com/uBlockOrigin/uAssets/issues/1408
+! ============================================================
+! SESSION REPLAY / BEHAVIOR MONITORING
+! ============================================================
+
+||clarity.ms^$all
+||fullstory.com^$all
+||logrocket.com^$all
+||mouseflow.com^$all
+||smartlook.com^$all
+||luckyorange.com^$all
+||crazyegg.com^$all
+||hotjar.com^$all
+||quantummetric.com^$all
+||contentsquare.net^$all
+
+! ============================================================
+! FINGERPRINTING / DEVICE IDENTIFICATION
+! ============================================================
+
+||fingerprint.com^$all
+||fpjs.io^$all
+||fingerprintjs.com^$all
+||clientjs.org^$all
+||iovation.com^$all
+||threatmetrix.com^$all
+||mpsnare.iesnare.com^$all
+||devicefingerprint.com^$all
+
+! ============================================================
+! TELEMETRY / ERROR REPORTING
+! ============================================================
+
+||sentry.io^$all
+||browser-intake-datadoghq.com^$all
+||datadoghq.com^$all
+||newrelic.com^$all
+||nr-data.net^$all
+||bugsnag.com^$all
+||rollbar.com^$all
+||raygun.io^$all
+||airbrake.io^$all
+||instabug.com^$all
+
+! ============================================================
+! EMAIL / MARKETING TRACKING
+! ============================================================
+
+||mailchimp.com^$all
+||list-manage.com^$all
+||hubspot.com^$all
+||hs-analytics.net^$all
+||hs-scripts.com^$all
+||marketo.com^$all
+||mktoresp.com^$all
+||pardot.com^$all
+||eloqua.com^$all
+||salesforce.com^$all
+
+! ============================================================
+! DATA BROKERS / IDENTITY / AUDIENCE MATCHING
+! ============================================================
+
+||rlcdn.com^$all
+||bluekai.com^$all
+||demdex.net^$all
+||everesttech.net^$all
+||exelator.com^$all
+||krxd.net^$all
+||lotame.com^$all
+||adsrvr.org^$all
+||agkn.com^$all
+||eyeota.net^$all
+||tapad.com^$all
+||drawbridge.com^$all
+||id5-sync.com^$all
+
+! ============================================================
+! GOOGLE TRACKING ENDPOINTS
+! ============================================================
+
+||google-analytics.com^$all
+||googletagmanager.com^$all
+||googleadservices.com^$all
+||doubleclick.net^$all
+||googlesyndication.com^$all
+||pagead2.googlesyndication.com^$all
+||adservice.google.com^$all
+||analytics.google.com^$all
+
+! ============================================================
+! MICROSOFT / BING TRACKING
+! ============================================================
+
+||bat.bing.com^$all
+||clarity.ms^$all
+||c.bing.com^$all
+||c1.microsoft.com^$all
+
+! ============================================================
+! TELEMETRY / TRACKING CDNs
+! ============================================================
+
+||stats.wp.com^$all
+||pixel.wp.com^$all
+||pixel.facebook.com^$all
+||connect.facebook.net^$all
+||static.ads-twitter.com^$all
+||analytics.tiktok.com^$all
+
+! ============================================================
+! COMMON TRACKING PIXEL ENDPOINTS
+! ============================================================
+
+||/pixel.gif^$image
+||/pixel.png^$image
+||/tracking.gif^$image
+||/track.gif^$image
+||/beacon.gif^$image
+||/beacon.png^$image
+||/analytics.gif^$image
+
+! ============================================================
+! URL TRACKING PARAMETERS
+! ============================================================
+
+||*$removeparam=utm_source
+||*$removeparam=utm_medium
+||*$removeparam=utm_campaign
+||*$removeparam=utm_term
+||*$removeparam=utm_content
+||*$removeparam=utm_id
+||*$removeparam=fbclid
+||*$removeparam=gclid
+||*$removeparam=dclid
+||*$removeparam=msclkid
+||*$removeparam=mc_cid
+||*$removeparam=mc_eid
+||*$removeparam=_ga
+||*$removeparam=_gl
+||*$removeparam=igshid
+||*$removeparam=twclid
+||*$removeparam=ttclid
+||*$removeparam=li_fat_id
+||*$removeparam=vero_id
+||*$removeparam=oly_enc_id
+||*$removeparam=yclid
+||*$removeparam=wbraid
+||*$removeparam=gbraid
+
+! ============================================================
+! ORIGINAL CORE uBLOCK VIDEO / DOMAIN PROTECTION
+! ============================================================
+
 *_ad_$media,domain=youtube.com,3p
 tv.youtube.com##+js(trusted-replace-xhr-response, '"adPlacements"', '"no_ads"', /playlist\?list=|\/player(?:\?.+)?$|watch\?[tv]=/)
 www.youtube.com##+js(trusted-replace-xhr-response, /"adPlacements.*?([A-Z]"\}|"\}{2\,4})\}\]\,/, , /playlist\?list=|\/player(?:\?.+)?$|watch\?[tv]=/)
@@ -45,30 +251,12 @@ m.youtube.com,music.youtube.com,tv.youtube.com,www.youtube.com,youtubekids.com,y
 m.youtube.com,music.youtube.com,tv.youtube.com,www.youtube.com,youtubekids.com,youtube-nocookie.com##+js(set, ytInitialPlayerResponse.adSlots, undefined)
 m.youtube.com,music.youtube.com,tv.youtube.com,www.youtube.com,youtubekids.com,youtube-nocookie.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds playerResponse.adSlots adPlacements playerAds adSlots important)
 
-! --- Anti-Adblock Redirect Emulations ---
+! ============================================================
+! ANTI-ADBLOCK REDIRECT EMULATIONS
+! ============================================================
+
 */fuckadblock-$script,redirect=fuckadblock.js-3.2.0:5
 */fuckadblock.$script,redirect=fuckadblock.js-3.2.0:5
 */blockadblock.$script,redirect=blockadblock.js-3.2.0:5
 */blockadblock-$script,redirect=blockadblock.js-3.2.0:5
 */wp-adblock-$script,redirect=wp-adblock.js-3.2.0:5
-
-! ============================================================
-! xPrivacy Guard FILTER ENGINE TESTS
-! ============================================================
-
-! --- Network blocking ---
-||example.com/xprivacyguard-test-script.js$script
-||example.com/xprivacyguard-test-xhr$xmlhttprequest
-||example.com/xprivacyguard-test-image.png$image
-||example.com/xprivacyguard-test.css$stylesheet
-||example.com/xprivacyguard-test-network
-
-! --- Cosmetic filtering ---
-example.com###xprivacyguard-test
-
-! --- URL parameter removal ---
-||example.com^$removeparam=utm_source
-||example.com^$removeparam=utm_medium
-||example.com^$removeparam=utm_campaign
-||example.com^$removeparam=fbclid
-||example.com^$removeparam=gclid
