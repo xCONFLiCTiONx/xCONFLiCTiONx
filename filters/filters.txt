@@ -48,36 +48,25 @@ m.youtube.com,music.youtube.com,tv.youtube.com,www.youtube.com,youtubekids.com,y
 ! --- Anti-Adblock Redirect Emulations ---
 */fuckadblock-$script,redirect=fuckadblock.js-3.2.0:5
 */fuckadblock.$script,redirect=fuckadblock.js-3.2.0:5
-*/blockadblock.$script,redirect=fuckadblock.js-3.2.0:5
-*/blockadblock-$script,redirect=fuckadblock.js-3.2.0:5
-*/wp-adblock-$script,redirect=fuckadblock.js-3.2.0:5
+*/blockadblock.$script,redirect=blockadblock.js-3.2.0:5
+*/blockadblock-$script,redirect=blockadblock.js-3.2.0:5
+*/wp-adblock-$script,redirect=wp-adblock.js-3.2.0:5
 
-! Title: xPrivacy Guard Extension Test Filter
-! Last modified: 2026-10-06
-! Description: Test filter for verifying xPrivacy Guard custom filter-list support.
+! ============================================================
+! xPrivacy Guard FILTER ENGINE TESTS
+! ============================================================
 
-! --- Network blocking tests ---
-||example.com/test-xprivacyguard.js$script
-||example.com/test-xprivacyguard.css$stylesheet
-||example.com/test-xprivacyguard.png$image
-||example.com/test-xprivacyguard.gif$image
-||example.com/test-xprivacyguard.json$xmlhttprequest
+! --- Network blocking ---
+||example.com/xprivacyguard-test-script.js$script
+||example.com/xprivacyguard-test-xhr$xmlhttprequest
+||example.com/xprivacyguard-test-image.png$image
+||example.com/xprivacyguard-test.css$stylesheet
+||example.com/xprivacyguard-test-network
 
-! --- Cosmetic filtering tests ---
+! --- Cosmetic filtering ---
 example.com###xprivacyguard-test
-example.com##.xprivacyguard-test
-example.com##[data-xprivacyguard-test]
 
-! --- Known tracker/ad domains ---
-||doubleclick.net^
-||googlesyndication.com^
-||googleadservices.com^
-||adservice.google.com^
-||connect.facebook.net^
-||analytics.google.com^
-||googletagmanager.com^
-
-! --- URL parameter tests ---
+! --- URL parameter removal ---
 ||example.com^$removeparam=utm_source
 ||example.com^$removeparam=utm_medium
 ||example.com^$removeparam=utm_campaign
