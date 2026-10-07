@@ -59,3 +59,10 @@ aranzulla.it##.banner:remove()
 aranzulla.it##[id^="ad"]:remove()
 uol.com.br##.bg-banner
 uol.com.br##[id^="banner-300x250"]:remove()
+
+! --- Verification & Test Rules ---
+! 1. Network Blocking Test: Blocks a harmless tracking request to verify network interception
+||block-test.example.com^$all
+
+! 2. Cosmetic Hiding Test: Injects a visual proof badge on example.com and example.org
+example.com,example.org##body:before { content: "✓ Custom Privacy & Tracker Filters Active"; display: block; background: #0d1117; color: #58a6ff; padding: 12px; text-align: center; font-weight: bold; font-family: sans-serif; z-index: 999999; }
