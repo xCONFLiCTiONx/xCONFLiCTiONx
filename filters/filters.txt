@@ -1,0 +1,50 @@
+! Title: Custom App Privacy & Tracker Filters
+! Last modified: 2026-10-06
+! Description: Custom blocklist combining uBlock essentials with core telemetry, tracking, and ad-network protection.
+!
+
+! --- Modern Telemetry, Analytics, and Data Harvesting Endpoints ---
+||sentry.io^$all
+||mixpanel.com^$all
+||amplitude.com^$all
+||hotjar.com^$all
+||segment.io^$all
+||clarity.ms^$all
+
+! --- Common Ad-Network & Tracker CDN Domains ---
+||doubleclick.net^$all
+||googlesyndication.com^$all
+||adnxs.com^$all
+||criteo.com^$all
+||pubmatic.com^$all
+||rubiconproject.com^$all
+
+! --- Social Media Tracking & Pixel Injection Vectors ---
+||connect.facebook.net^$script
+||platform.twitter.com/widgets.js$script
+||linkedin.com/px/li_track$all
+
+! --- Original Core uBlock Video and Domain Protection Rules ---
+! https://github.com/uBlockOrigin/uAssets/issues/1408
+*_ad_$media,domain=youtube.com,3p
+tv.youtube.com##+js(trusted-replace-xhr-response, '"adPlacements"', '"no_ads"', /playlist\?list=|\/player(?:\?.+)?$|watch\?[tv]=/)
+www.youtube.com##+js(trusted-replace-xhr-response, /"adPlacements.*?([A-Z]"\}|"\}{2\,4})\}\]\,/, , /playlist\?list=|\/player(?:\?.+)?$|watch\?[tv]=/)
+m.youtube.com,music.youtube.com,tv.youtube.com,www.youtube.com,youtubekids.com,youtube-nocookie.com##+js(set, ytInitialPlayerResponse.playerAds, undefined)
+m.youtube.com,music.youtube.com,tv.youtube.com,www.youtube.com,youtubekids.com,youtube-nocookie.com##+js(set, ytInitialPlayerResponse.adPlacements, undefined)
+m.youtube.com,music.youtube.com,tv.youtube.com,www.youtube.com,youtubekids.com,youtube-nocookie.com##+js(set, ytInitialPlayerResponse.adSlots, undefined)
+m.youtube.com,music.youtube.com,tv.youtube.com,www.youtube.com,youtubekids.com,youtube-nocookie.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds playerResponse.adSlots adPlacements playerAds adSlots important)
+
+! --- Anti-Adblock Redirect Emulations ---
+*/fuckadblock-$script,redirect=fuckadblock.js-3.2.0:5
+*/fuckadblock.$script,redirect=fuckadblock.js-3.2.0:5
+*/blockadblock.$script,redirect=fuckadblock.js-3.2.0:5
+*/blockadblock-$script,redirect=fuckadblock.js-3.2.0:5
+*/wp-adblock-$script,redirect=fuckadblock.js-3.2.0:5
+
+! --- Element-Hiding and Cosmetic Block Rules ---
+example.com##.sponsored-post-container
+example.org##div[id*="native-ad-"]
+aranzulla.it##.banner:remove()
+aranzulla.it##[id^="ad"]:remove()
+uol.com.br##.bg-banner
+uol.com.br##[id^="banner-300x250"]:remove()
