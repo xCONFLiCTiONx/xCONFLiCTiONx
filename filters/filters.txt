@@ -10,6 +10,10 @@
 ||hotjar.com^$all
 ||segment.io^$all
 ||clarity.ms^$all
+||appsflyer.com^$all
+||adjust.com^$all
+||branch.io^$all
+||raygun.io^$all
 
 ! --- Common Ad-Network & Tracker CDN Domains ---
 ||doubleclick.net^$all
@@ -18,11 +22,18 @@
 ||criteo.com^$all
 ||pubmatic.com^$all
 ||rubiconproject.com^$all
+||openx.net^$all
+||taboola.com^$all
+||outbrain.com^$all
+||amazon-adsystem.com^$all
 
 ! --- Social Media Tracking & Pixel Injection Vectors ---
 ||connect.facebook.net^$script
 ||platform.twitter.com/widgets.js$script
 ||linkedin.com/px/li_track$all
+||tiktok.com/i18n/pixel/events.js$script
+||snap.licdn.com^$script
+||pinterest.com/ct.js$script
 
 ! --- Original Core uBlock Video and Domain Protection Rules ---
 ! https://github.com/uBlockOrigin/uAssets/issues/1408
