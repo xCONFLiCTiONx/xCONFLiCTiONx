@@ -1,64 +1,27 @@
-! Title: xPrivacy Guard Custom Privacy & Ad/Tracker Filters
+! Title: xPrivacy Guard - Aggressive Privacy & Ad Filters
 ! Last modified: 2026-10-07
-! Description: Custom blocking rules for xPrivacy Guard covering advertising,
-! analytics, telemetry, tracking, attribution, session replay, fingerprinting,
-! social pixels, data brokers, marketing tracking, URL tracking parameters,
-! common tracking pixels, and selected anti-adblock resources.
+! Description: Aggressive network/privacy filter list for xPrivacy Guard.
+! Filters only. No scriptlets or extension-code dependencies.
 !
-! Designed to complement EasyList / EasyPrivacy / uBlock-compatible lists.
-!
-! ============================================================
-! APPLICATION TELEMETRY / ANALYTICS
-! ============================================================
-
-||sentry.io^$all
-||mixpanel.com^$all
-||amplitude.com^$all
-||hotjar.com^$all
-||segment.io^$all
-||clarity.ms^$all
-||appsflyer.com^$all
-||adjust.com^$all
-||branch.io^$all
-||raygun.io^$all
-||heap.io^$all
-||heapanalytics.com^$all
-||fullstory.com^$all
-||mouseflow.com^$all
-||logrocket.com^$all
-||smartlook.com^$all
-||luckyorange.com^$all
-||crazyegg.com^$all
-||quantummetric.com^$all
-||contentsquare.net^$all
-||glassboxdigital.io^$all
-||mopinion.com^$all
 
 ! ============================================================
-! MOBILE / APP ATTRIBUTION / TRACKING SDKs
-! ============================================================
-
-||kochava.com^$all
-||singular.net^$all
-||tapjoy.com^$all
-||app-measurement.com^$all
-||firebaseinstallations.googleapis.com^$all
-||firebaseinappmessaging.googleapis.com^$all
-||firebaselogging-pa.googleapis.com^$all
-||crashlytics.com^$all
-||in.appcenter.ms^$all
-||appcenter.ms^$all
-
-! ============================================================
-! AD NETWORKS / REAL-TIME BIDDING
+! AD NETWORKS / AD DELIVERY
 ! ============================================================
 
 ||doubleclick.net^$all
 ||googlesyndication.com^$all
+||googleadservices.com^$all
+||google-analytics.com^$all
+||adservice.google.com^$all
+||pagead2.googlesyndication.com^$all
+||googleads.g.doubleclick.net^$all
+||securepubads.g.doubleclick.net^$all
 ||adnxs.com^$all
 ||appnexus.com^$all
 ||criteo.com^$all
+||criteo.net^$all
 ||pubmatic.com^$all
+||rubiconproject.com^$all
 ||rubiconproject.com^$all
 ||openx.net^$all
 ||taboola.com^$all
@@ -76,27 +39,151 @@
 ||yieldmo.com^$all
 ||sharethrough.com^$all
 ||sonobi.com^$all
+||gumgum.com^$all
+||media.net^$all
+||contextweb.com^$all
+||adsrvr.org^$all
+||bidr.io^$all
+||33across.com^$all
+||sovrn.com^$all
+||lijit.com^$all
+||zedo.com^$all
+||revcontent.com^$all
+||mgid.com^$all
+||adform.net^$all
+||adkernel.com^$all
+||loopme.me^$all
+||inmobi.com^$all
+||ironsource.com^$all
+||unityads.unity3d.com^$all
+||applovin.com^$all
+||vungle.com^$all
+||chartboost.com^$all
+||startapp.com^$all
+||tapjoy.com^$all
+||fyber.com^$all
+||mintegral.com^$all
+||liftoff.io^$all
+||moloco.com^$all
+||hyprmx.com^$all
 
 ! ============================================================
-! SOCIAL TRACKING / PIXELS
+! ANALYTICS / TELEMETRY
 ! ============================================================
 
-||connect.facebook.net^$script
+||sentry.io^$all
+||ingest.sentry.io^$all
+||browser-intake-datadoghq.com^$all
+||datadoghq.com^$all
+||newrelic.com^$all
+||nr-data.net^$all
+||browser-agent.newrelic.com^$all
+||bugsnag.com^$all
+||rollbar.com^$all
+||raygun.io^$all
+||airbrake.io^$all
+||instabug.com^$all
+||mixpanel.com^$all
+||amplitude.com^$all
+||hotjar.com^$all
+||segment.io^$all
+||segment.com^$all
+||clarity.ms^$all
+||appsflyer.com^$all
+||adjust.com^$all
+||branch.io^$all
+||heap.io^$all
+||heapanalytics.com^$all
+||fullstory.com^$all
+||mouseflow.com^$all
+||logrocket.com^$all
+||smartlook.com^$all
+||luckyorange.com^$all
+||crazyegg.com^$all
+||quantummetric.com^$all
+||contentsquare.net^$all
+||glassboxdigital.io^$all
+||mopinion.com^$all
+||matomo.cloud^$all
+||stats.wp.com^$all
+||pixel.wp.com^$all
+
+! ============================================================
+! GOOGLE TRACKING
+! ============================================================
+
+||google-analytics.com^$all
+||analytics.google.com^$all
+||googletagmanager.com^$all
+||googleadservices.com^$all
+||doubleclick.net^$all
+||googlesyndication.com^$all
+||adservice.google.com^$all
+||pagead2.googlesyndication.com^$all
+||www.google-analytics.com^$all
+||region1.google-analytics.com^$all
+||region1.analytics.google.com^$all
+
+! ============================================================
+! MICROSOFT / BING
+! ============================================================
+
+||bat.bing.com^$all
+||c.bing.com^$all
+||c1.microsoft.com^$all
+||clarity.ms^$all
+||browser.events.data.microsoft.com^$all
+||vortex.data.microsoft.com^$all
+||watson.telemetry.microsoft.com^$all
+||dc.services.visualstudio.com^$all
+
+! ============================================================
+! META / FACEBOOK
+! ============================================================
+
+||connect.facebook.net^$all
+||facebook.com/tr^$all
+||facebook.net^$all
 ||pixel.facebook.com^$all
-||platform.twitter.com/widgets.js$script
+||www.facebook.com/tr^$all
+||an.facebook.com^$all
+
+! ============================================================
+! X / TWITTER
+! ============================================================
+
 ||analytics.twitter.com^$all
 ||ads-api.twitter.com^$all
 ||static.ads-twitter.com^$all
-||linkedin.com/px/li_track$all
-||snap.licdn.com^$script
-||tiktok.com/i18n/pixel/events.js$script
-||analytics.tiktok.com^$all
-||business-api.tiktok.com^$all
-||pinterest.com/ct.js$script
-||bat.bing.com^$all
+||platform.twitter.com^$all
+||syndication.twitter.com^$all
+||ads-twitter.com^$all
 
 ! ============================================================
-! SESSION REPLAY / BEHAVIOR MONITORING
+! TIKTOK
+! ============================================================
+
+||analytics.tiktok.com^$all
+||business-api.tiktok.com^$all
+||ads.tiktok.com^$all
+||tiktok.com/i18n/pixel^$all
+||analytics-sg.tiktok.com^$all
+||analytics-us.tiktok.com^$all
+
+! ============================================================
+! LINKEDIN / PINTEREST / SNAP
+! ============================================================
+
+||snap.licdn.com^$all
+||linkedin.com/px^$all
+||linkedin.com/insight^$all
+||pinterest.com/ct^$all
+||pinimg.com^$all
+||sc-static.net^$all
+||tr.snapchat.com^$all
+
+! ============================================================
+! SESSION REPLAY
 ! ============================================================
 
 ||clarity.ms^$all
@@ -111,45 +198,38 @@
 ||contentsquare.net^$all
 
 ! ============================================================
-! FINGERPRINTING / DEVICE IDENTIFICATION
+! FINGERPRINTING SERVICES / SDKs
 ! ============================================================
 
 ||fingerprint.com^$all
-||fpjs.io^$all
 ||fingerprintjs.com^$all
+||fpjs.io^$all
 ||clientjs.org^$all
 ||iovation.com^$all
 ||threatmetrix.com^$all
 ||mpsnare.iesnare.com^$all
 ||devicefingerprint.com^$all
+||perimeterx.net^$all
+||perimeterx.com^$all
+||datadome.co^$all
+||castle.io^$all
+||kasada.io^$all
+||arkoselabs.com^$all
 
 ! ============================================================
-! TELEMETRY / ERROR REPORTING
+! MOBILE / ATTRIBUTION / TRACKING SDKs
 ! ============================================================
 
-||browser-intake-datadoghq.com^$all
-||datadoghq.com^$all
-||newrelic.com^$all
-||nr-data.net^$all
-||bugsnag.com^$all
-||rollbar.com^$all
-||airbrake.io^$all
-||instabug.com^$all
-
-! ============================================================
-! EMAIL / MARKETING TRACKING
-! ============================================================
-
-||mailchimp.com^$all
-||list-manage.com^$all
-||hubspot.com^$all
-||hs-analytics.net^$all
-||hs-scripts.com^$all
-||marketo.com^$all
-||mktoresp.com^$all
-||pardot.com^$all
-||eloqua.com^$all
-||salesforce.com^$all
+||kochava.com^$all
+||singular.net^$all
+||branch.io^$all
+||app-measurement.com^$all
+||firebaseinstallations.googleapis.com^$all
+||firebaseinappmessaging.googleapis.com^$all
+||firebaselogging-pa.googleapis.com^$all
+||crashlytics.com^$all
+||in.appcenter.ms^$all
+||appcenter.ms^$all
 
 ! ============================================================
 ! DATA BROKERS / IDENTITY / AUDIENCE MATCHING
@@ -168,50 +248,136 @@
 ||tapad.com^$all
 ||drawbridge.com^$all
 ||id5-sync.com^$all
+||33across.com^$all
+||adform.net^$all
+||crwdcntrl.net^$all
+||neustar.biz^$all
+||quantserve.com^$all
+||scorecardresearch.com^$all
+||imrworldwide.com^$all
+||nielsen.com^$all
+||nielsen.net^$all
 
 ! ============================================================
-! GOOGLE TRACKING / ADVERTISING
+! EMAIL / MARKETING TRACKING
 ! ============================================================
 
-||google-analytics.com^$all
-||googletagmanager.com^$all
-||googleadservices.com^$all
-||doubleclick.net^$all
-||googlesyndication.com^$all
-||pagead2.googlesyndication.com^$all
-||adservice.google.com^$all
-||analytics.google.com^$all
+||mailchimp.com^$all
+||list-manage.com^$all
+||hubspot.com^$all
+||hs-analytics.net^$all
+||hs-scripts.com^$all
+||marketo.com^$all
+||mktoresp.com^$all
+||pardot.com^$all
+||eloqua.com^$all
+||salesforce.com^$all
+||track.hubspot.com^$all
 
 ! ============================================================
-! MICROSOFT / BING TRACKING
-! ============================================================
-
-||bat.bing.com^$all
-||clarity.ms^$all
-||c.bing.com^$all
-||c1.microsoft.com^$all
-
-! ============================================================
-! WORDPRESS / COMMON TRACKING CDNs
-! ============================================================
-
-||stats.wp.com^$all
-||pixel.wp.com^$all
-
-! ============================================================
-! COMMON TRACKING PIXELS / BEACONS
+! COMMON TRACKING / BEACON PATHS
 ! ============================================================
 
 ||/pixel.gif^$image
 ||/pixel.png^$image
+||/pixel.jpg^$image
 ||/tracking.gif^$image
 ||/track.gif^$image
 ||/beacon.gif^$image
 ||/beacon.png^$image
+||/beacon.jpg^$image
 ||/analytics.gif^$image
+||/analytics.png^$image
+||/telemetry.gif^$image
+||/collect.gif^$image
+||/collect.png^$image
+||/event.gif^$image
+||/event.png^$image
 
 ! ============================================================
-! URL TRACKING PARAMETERS
+! COMMON TRACKING ENDPOINTS
+! ============================================================
+
+||/collect^$xmlhttprequest
+||/collect?v=^$xmlhttprequest
+||/g/collect^$xmlhttprequest
+||/analytics^$xmlhttprequest
+||/analytics/collect^$xmlhttprequest
+||/tracking^$xmlhttprequest
+||/track^$xmlhttprequest
+||/telemetry^$xmlhttprequest
+||/telemetry/^$xmlhttprequest
+||/beacon^$xmlhttprequest
+||/beacon/^$xmlhttprequest
+||/events^$xmlhttprequest
+||/events/collect^$xmlhttprequest
+||/event/collect^$xmlhttprequest
+||/log/collect^$xmlhttprequest
+
+! ============================================================
+! AD / TRACKING URL PATHS
+! ============================================================
+
+||/ads^$document
+||/ads/^$all
+||/adserver^$all
+||/adserver/^$all
+||/advert^$all
+||/advertising^$all
+||/banner^$all
+||/banners/^$all
+||/prebid^$all
+||/prebid/^$all
+||/bid^$all
+||/bidding^$all
+||/rtb^$all
+||/vast^$all
+||/vpaid^$all
+||/adtag^$all
+||/ad_tag^$all
+||/adrequest^$all
+||/ad_request^$all
+||/adcall^$all
+||/ad_call^$all
+
+! ============================================================
+! FINGERPRINTING SCRIPT PATHS
+! ============================================================
+
+||/fingerprint^$script
+||/fingerprint/^$script
+||/fingerprinting^$script
+||/fingerprinting/^$script
+||/fingerprintjs^$script
+||/fingerprint.js^$script
+||/fp.js^$script
+||/fp.min.js^$script
+||/device-fingerprint^$script
+||/devicefingerprint^$script
+||/canvas-fingerprint^$script
+||/audio-fingerprint^$script
+
+! ============================================================
+! SOCIAL / RETARGETING PIXELS
+! ============================================================
+
+||/pixel^$xmlhttprequest
+||/pixels^$xmlhttprequest
+||/conversion^$xmlhttprequest
+||/conversion/^$xmlhttprequest
+||/conversions^$xmlhttprequest
+||/retargeting^$xmlhttprequest
+||/remarketing^$xmlhttprequest
+||/audience^$xmlhttprequest
+||/audience/^$xmlhttprequest
+||/match^$xmlhttprequest
+||/sync^$xmlhttprequest
+||/sync/^$xmlhttprequest
+||/usersync^$xmlhttprequest
+||/user-sync^$xmlhttprequest
+
+! ============================================================
+! QUERY PARAMETER TRACKING
 ! ============================================================
 
 ||*$removeparam=utm_source
@@ -220,6 +386,12 @@
 ||*$removeparam=utm_term
 ||*$removeparam=utm_content
 ||*$removeparam=utm_id
+||*$removeparam=utm_name
+||*$removeparam=utm_reader
+||*$removeparam=utm_referrer
+||*$removeparam=utm_social
+||*$removeparam=utm_social-type
+||*$removeparam=utm_viz_id
 ||*$removeparam=fbclid
 ||*$removeparam=gclid
 ||*$removeparam=dclid
@@ -237,127 +409,206 @@
 ||*$removeparam=yclid
 ||*$removeparam=wbraid
 ||*$removeparam=gbraid
-
-! ============================================================
-! ADDITIONAL COMMON TRACKING PARAMETERS
-! ============================================================
-
-||*$removeparam=campaign_id
-||*$removeparam=ad_id
-||*$removeparam=adgroupid
-||*$removeparam=creative
-||*$removeparam=creative_id
-||*$removeparam=keyword
-||*$removeparam=matchtype
-||*$removeparam=placement
-||*$removeparam=network
-||*$removeparam=ref
-||*$removeparam=referrer
-||*$removeparam=source
-||*$removeparam=spm
-||*$removeparam=zanpid
-||*$removeparam=aff_id
-||*$removeparam=affiliate
-||*$removeparam=affiliate_id
-||*$removeparam=click_id
-||*$removeparam=clickid
-||*$removeparam=cid
-||*$removeparam=irclickid
 ||*$removeparam=epik
 ||*$removeparam=s_kwcid
+||*$removeparam=dm_i
+||*$removeparam=ref
+||*$removeparam=ref_
+||*$removeparam=affiliate
+||*$removeparam=affiliate_id
+||*$removeparam=aff_id
+||*$removeparam=campaign
+||*$removeparam=campaign_id
+||*$removeparam=tracking
+||*$removeparam=track
+||*$removeparam=source
+||*$removeparam=click_id
+||*$removeparam=clickid
 
 ! ============================================================
-! COMMON AD / TRACKING RESOURCE NAMES
+! COMMON TRACKING COOKIES VIA COOKIE HEADER
 ! ============================================================
 
-||/ads.js^$script
+||doubleclick.net^$cookie
+||google-analytics.com^$cookie
+||googletagmanager.com^$cookie
+||facebook.com^$cookie
+||facebook.net^$cookie
+||clarity.ms^$cookie
+||hotjar.com^$cookie
+||segment.io^$cookie
+||mixpanel.com^$cookie
+||amplitude.com^$cookie
+||fullstory.com^$cookie
+||criteo.com^$cookie
+||adnxs.com^$cookie
+
+! ============================================================
+! AD / TRACKER GENERIC HOSTNAME PATTERNS
+! ============================================================
+
+||adserver.^$all
+||adserver-^$all
+||adsrv.^$all
+||adservice.^$all
+||advertising.^$all
+||advertising-^$all
+||analytics.^$all
+||analytics-^$all
+||tracking.^$all
+||tracking-^$all
+||tracker.^$all
+||tracker-^$all
+||telemetry.^$all
+||telemetry-^$all
+||metrics.^$all
+||metrics-^$all
+||beacon.^$all
+||beacon-^$all
+||pixel.^$all
+||pixel-^$all
+||collect.^$all
+||collect-^$all
+||conversion.^$all
+||conversion-^$all
+||retargeting.^$all
+||remarketing.^$all
+||fingerprint.^$all
+||fingerprint-^$all
+
+! ============================================================
+! VIDEO / STREAMING AD INFRASTRUCTURE
+! ============================================================
+
+||imasdk.googleapis.com^$all
+||pubads.g.doubleclick.net^$all
+||securepubads.g.doubleclick.net^$all
+||pagead2.googlesyndication.com^$all
+||googleads.g.doubleclick.net^$all
+||imasdk.google.com^$all
+||ad.doubleclick.net^$all
+||static.doubleclick.net^$all
+
+! ============================================================
+! AD BLOCK DETECTION / ANTI-ADBLOCK NETWORKS
+! ============================================================
+
+||fuckadblock.com^$all
+||blockadblock.com^$all
+||adblockanalytics.com^$all
+||admiral.com^$all
+||pagefair.com^$all
+||blockthrough.com^$all
+
+! ============================================================
+! GENERIC AD SCRIPT NAMES
+! ============================================================
+
 ||/ad.js^$script
-||/advertisement.js^$script
+||/ads.js^$script
+||/ad.min.js^$script
+||/ads.min.js^$script
+||/advert.js^$script
 ||/advertising.js^$script
-||/adsbygoogle.js^$script
-||/adservice.js^$script
 ||/adserver.js^$script
-||/adframe.js^$script
-||/adloader.js^$script
-||/admanager.js^$script
-||/adtag.js^$script
-||/adtrack.js^$script
-||/adtracker.js^$script
+||/adservice.js^$script
+||/prebid.js^$script
+||/prebid.min.js^$script
+||/gpt.js^$script
+||/adsbygoogle.js^$script
+
+! ============================================================
+! GENERIC TRACKER SCRIPT NAMES
+! ============================================================
+
 ||/analytics.js^$script
+||/analytics.min.js^$script
 ||/tracking.js^$script
+||/tracking.min.js^$script
 ||/tracker.js^$script
+||/tracker.min.js^$script
 ||/telemetry.js^$script
+||/telemetry.min.js^$script
 ||/beacon.js^$script
+||/beacon.min.js^$script
+||/pixel.js^$script
+||/pixel.min.js^$script
+||/fingerprint.js^$script
+||/fingerprint.min.js^$script
 
 ! ============================================================
-! COMMON AD / TRACKING PATHS
+! COMMON TRACKING REQUEST EXTENSIONS
 ! ============================================================
 
-*/ads/$script,3p
-*/adserver/$script,3p
-*/adserver.$script,3p
-*/advertising/$script,3p
-*/advertising.$script,3p
-*/analytics/$script,3p
-*/tracking/$script,3p
-*/tracker/$script,3p
-*/telemetry/$script,3p
-*/pixel/$image,3p
-*/pixels/$image,3p
-*/beacon/$image,3p
+||/track.gif^$all
+||/tracking.gif^$all
+||/beacon.gif^$all
+||/pixel.gif^$all
+||/pixel.png^$all
+||/analytics.gif^$all
+||/analytics.png^$all
+||/telemetry.gif^$all
+||/telemetry.png^$all
 
 ! ============================================================
-! THIRD-PARTY TRACKING ENDPOINTS
+! SOCIAL / MARKETING SCRIPT HOSTS
 ! ============================================================
 
-||/collect^$3p
-||/collect.gif^$3p
-||/collect.png^$3p
-||/track^$3p
-||/track.gif^$3p
-||/tracking^$3p
-||/beacon^$3p
-||/pixel^$3p
-||/pixel.gif^$3p
-||/event^$3p
-||/events^$3p
+||connect.facebook.net^$script
+||platform.twitter.com^$script
+||static.ads-twitter.com^$script
+||analytics.tiktok.com^$script
+||business-api.tiktok.com^$script
+||snap.licdn.com^$script
+||pinterest.com/ct.js$script
+||bat.bing.com^$script
 
 ! ============================================================
-! FINGERPRINTING / CLIENT IDENTIFICATION ENDPOINTS
-! ============================================================
-
-||/fingerprint^$3p
-||/fingerprinting^$3p
-||/fp^$3p
-||/fp.js^$script,3p
-||/fingerprint.js^$script,3p
-||/fingerprinting.js^$script,3p
-||/device-id^$3p
-||/deviceid^$3p
-||/visitor-id^$3p
-||/visitor_id^$3p
-||/visitorid^$3p
-
-! ============================================================
-! ORIGINAL CORE uBLOCK VIDEO / DOMAIN PROTECTION
+! ORIGINAL YOUTUBE AD NETWORK BLOCKS
 ! ============================================================
 
 *_ad_$media,domain=youtube.com,3p
-
-tv.youtube.com##+js(trusted-replace-xhr-response, '"adPlacements"', '"no_ads"', /playlist\?list=|\/player(?:\?.+)?$|watch\?[tv]=/)
-
-www.youtube.com##+js(trusted-replace-xhr-response, /"adPlacements.*?([A-Z]"\}|"\}{2\,4})\}\]\,/, , /playlist\?list=|\/player(?:\?.+)?$|watch\?[tv]=/)
-
-m.youtube.com,music.youtube.com,tv.youtube.com,www.youtube.com,youtubekids.com,youtube-nocookie.com##+js(set, ytInitialPlayerResponse.playerAds, undefined)
-
-m.youtube.com,music.youtube.com,tv.youtube.com,www.youtube.com,youtubekids.com,youtube-nocookie.com##+js(set, ytInitialPlayerResponse.adPlacements, undefined)
-
-m.youtube.com,music.youtube.com,tv.youtube.com,www.youtube.com,youtubekids.com,youtube-nocookie.com##+js(set, ytInitialPlayerResponse.adSlots, undefined)
-
-m.youtube.com,music.youtube.com,tv.youtube.com,www.youtube.com,youtubekids.com,youtube-nocookie.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds playerResponse.adSlots adPlacements playerAds adSlots important)
+||doubleclick.net^$all
+||googlesyndication.com^$all
+||googleadservices.com^$all
+||googleads.g.doubleclick.net^$all
+||pagead2.googlesyndication.com^$all
+||pubads.g.doubleclick.net^$all
+||imasdk.googleapis.com^$all
 
 ! ============================================================
-! ANTI-ADBLOCK REDIRECT EMULATIONS
+! TRACKING REDIRECTS
+! ============================================================
+
+||/click^$all
+||/click/^$all
+||/clickout^$all
+||/clickout/^$all
+||/redirect^$all
+||/redirect/^$all
+||/out^$all
+||/out/^$all
+||/go^$all
+||/go/^$all
+||/aff^$all
+||/aff/^$all
+||/affiliate^$all
+||/affiliate/^$all
+
+! ============================================================
+! KNOWN TRACKING QUERY PATHS
+! ============================================================
+
+||/pixel^$image
+||/track^$image
+||/tracking^$image
+||/beacon^$image
+||/analytics^$image
+||/telemetry^$image
+||/collect^$image
+
+! ============================================================
+! ANTI-ADBLOCK SCRIPT REDIRECTS
 ! ============================================================
 
 */fuckadblock-$script,redirect=fuckadblock.js-3.2.0:5
@@ -365,159 +616,3 @@ m.youtube.com,music.youtube.com,tv.youtube.com,www.youtube.com,youtubekids.com,y
 */blockadblock.$script,redirect=blockadblock.js-3.2.0:5
 */blockadblock-$script,redirect=blockadblock.js-3.2.0:5
 */wp-adblock-$script,redirect=wp-adblock.js-3.2.0:5
-
-! ============================================================
-! COMMON ANTI-ADBLOCK SCRIPT NAMES
-! ============================================================
-
-*/antiadblock.js^$script
-*/anti-adblock.js^$script
-*/antiadblocker.js^$script
-*/adblock-detect.js^$script
-*/adblock-detector.js^$script
-*/adblocker-detect.js^$script
-*/blockadblock.js^$script
-*/fuckadblock.js^$script
-*/detect-adblock.js^$script
-*/detectadblock.js^$script
-
-! ============================================================
-! AD RECOVERY / AD REINSERTION ENDPOINTS
-! ============================================================
-
-||adnxs-simple.com^$all
-||adsafeprotected.com^$all
-||adsrvr.org^$all
-||doubleverify.com^$all
-||doubleverify.net^$all
-||scorecardresearch.com^$all
-||quantserve.com^$all
-||imrworldwide.com^$all
-||moatads.com^$all
-||adsafeprotected.com^$all
-
-! ============================================================
-! ADDITIONAL AD / TRACKING INFRASTRUCTURE
-! ============================================================
-
-||adform.net^$all
-||adform.com^$all
-||bidtellect.com^$all
-||bidswitch.net^$all
-||contextweb.com^$all
-||districtm.io^$all
-||gumgum.com^$all
-||inmobi.com^$all
-||mediavine.com^$all
-||mgid.com^$all
-||nativo.com^$all
-||33across.com^$all
-||revcontent.com^$all
-||sovrn.com^$all
-||undertone.com^$all
-||viant.com^$all
-||yandexadexchange.net^$all
-
-! ============================================================
-! ADDITIONAL AUDIENCE / ID SYNC
-! ============================================================
-
-||crwdcntrl.net^$all
-||simpli.fi^$all
-||uidapi.com^$all
-||user-sync.com^$all
-||sync-tm.everesttech.net^$all
-||sync.mathtag.com^$all
-||cm.g.doubleclick.net^$all
-||match.adsrvr.org^$all
-||sync.rubiconproject.com^$all
-||sync.criteo.com^$all
-
-! ============================================================
-! SOCIAL / AD PIXEL HOSTS
-! ============================================================
-
-||facebook.com/tr^$all
-||www.facebook.com/tr^$all
-||google-analytics.com/g/collect^$all
-||google-analytics.com/collect^$all
-||analytics.google.com/g/collect^$all
-||bat.bing.com/action^$all
-||linkedin.com/insight^$all
-||px.ads.linkedin.com^$all
-||analytics.tiktok.com/i18n/pixel^$all
-
-! ============================================================
-! COMMON THIRD-PARTY AD IFRAME / FRAME RESOURCES
-! ============================================================
-
-*/adframe^$subdocument,3p
-*/adiframe^$subdocument,3p
-*/ads-iframe^$subdocument,3p
-*/advertisement-iframe^$subdocument,3p
-*/ad-container^$subdocument,3p
-
-! ============================================================
-! WEB ANALYTICS SCRIPT VARIANTS
-! ============================================================
-
-||google-analytics.com/analytics.js^$script
-||google-analytics.com/gtag/js^$script
-||googletagmanager.com/gtm.js^$script
-||connect.facebook.net/en_US/fbevents.js^$script
-||static.hotjar.com^$script
-||script.hotjar.com^$script
-||cdn.mxpnl.com^$script
-||cdn.segment.com^$script
-||cdn.amplitude.com^$script
-||cdn.appsflyer.com^$script
-
-! ============================================================
-! ERROR / CRASH REPORTING ENDPOINTS
-! ============================================================
-
-||sentry.io/api/^$3p
-||sentry.io/envelope/^$3p
-||browser-intake-datadoghq.com/api/^$3p
-||notify.bugsnag.com^$3p
-||api.bugsnag.com^$3p
-||api.rollbar.com^$3p
-||collector.newrelic.com^$3p
-||bam.nr-data.net^$3p
-
-! ============================================================
-! COMMON CONSENT / MARKETING TRACKING HOSTS
-! ============================================================
-
-||consentmanager.net^$all
-||cookiebot.com^$all
-||onetrust.com^$all
-||trustarc.com^$all
-||quantcast.com^$all
-||quantcast.mgr.consensu.org^$all
-
-! ============================================================
-! TRACKING STORAGE / SYNC REQUESTS
-! ============================================================
-
-*/sync/$3p
-*/sync.gif^$3p
-*/sync.png^$3p
-*/match/$3p
-*/match.gif^$3p
-*/match.png^$3p
-*/id-sync/$3p
-*/idsync/$3p
-*/user-sync/$3p
-*/usersync/$3p
-
-! ============================================================
-! KNOWN TRACKING / AD REQUEST EXTENSIONS
-! ============================================================
-
-*$image,3p,domain=~google.com|~youtube.com|~facebook.com|~microsoft.com
-*$3p,xmlhttprequest,domain=~google.com|~youtube.com|~facebook.com|~microsoft.com,redirect-rule=noop.js
-
-! ============================================================
-! END
-! ============================================================
