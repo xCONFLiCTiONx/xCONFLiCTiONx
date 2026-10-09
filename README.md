@@ -1,147 +1,185 @@
-<!-- ========================================================= -->
-<!--                     PREMIUM HERO                          -->
-<!-- ========================================================= -->
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=2600&pause=850&color=60A5FA&center=true&vCenter=true&width=850&height=50&lines=SOFTWARE+DEVELOPER+%26+TOOLSMITH;BUILDING+LOCAL-FIRST+DESKTOP+APPS;C+++%7C+ELECTRON+%7C+WINDOWS+INTEGRATION;CHROME+EXTENSIONS+%7C+AUTOMATION+SYSTEMS;ENGINEERED+FOR+SPEED+AND+CONTROL" alt="Typing introduction" />
-</p>
+<!--
+    xCONFLiCTiONx — PERSONAL HOMEPAGE
+    An old-web-inspired GitHub profile.
+-->
 
-<p align="center">
-  <img src="https://img.shields.io/badge/LOCAL--FIRST-DESKTOP-020617?style=for-the-badge&labelColor=020617&color=6366f1" alt="Local-first" />
-  <img src="https://img.shields.io/badge/CHROME--EXTENSIONS-020617?style=for-the-badge&labelColor=020617&color=8b5cf6" alt="Chrome Extensions" />
-  <img src="https://img.shields.io/badge/SYSTEM--TOOLS-020617?style=for-the-badge&labelColor=020617&color=ec4899" alt="System Tools" />
-</p>
-
-<br />
-
-<!-- ========================================================= -->
-<!--                    PROFILE INTRO                          -->
-<!-- ========================================================= -->
 <div align="center">
 
-<h2>◈ Engineering With Purpose</h2>
-<p width="80%">
-I design and build software where <strong>performance, local-first control, and practical utility</strong> meet. My focus is on turning real workflow friction into clean, reliable tools that run smoothly and respect user ownership—ranging from high-performance desktop suites to native Windows integrations and browser extensions.
-</p>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=050505&height=180&section=header&text=xCONFLiCTiONx&fontSize=52&fontColor=00FF9C&fontAlignY=38&desc=INDEPENDENT%20DEVELOPER%20%2F%20SYSTEM%20TINKERER&descSize=13&descAlignY=60&animation=fadeIn" width="100%" alt="xCONFLiCTiONx header"/>
 
-<img src="https://img.shields.io/badge/STATUS-BUILDING%20TOOLS-020617?style=for-the-badge&labelColor=020617&color=22c55e" alt="Status" />
-<br />
-<sub>ARCHITECT • BUILD • SHIP • MAINTAIN</sub>
+<img src="https://readme-typing-svg.demolab.com?font=Courier+New&size=15&duration=2800&pause=900&color=00FF9C&center=true&vCenter=true&width=600&lines=Welcome+to+my+corner+of+the+internet.;Building+tools%2C+not+another+subscription.;Privacy+is+a+feature%2C+not+a+marketing+line.;If+it+can+be+automated%2C+I+will+probably+try." alt="Animated terminal text"/>
+
+<br/>
+
+[![Website](https://img.shields.io/badge/🌐_PERSONAL_SITE-xconflictionx.cc-00FF9C?style=for-the-badge&labelColor=080808)](https://xconflictionx.cc/)
+[![GitHub](https://img.shields.io/badge/GITHUB-xCONFLiCTiONx-FFFFFF?style=for-the-badge&logo=github&logoColor=00FF9C&labelColor=080808)](https://github.com/xCONFLiCTiONx)
+![Status](https://img.shields.io/badge/STATUS-ALWAYS_TINKERING-00FF9C?style=for-the-badge&labelColor=080808)
+
+<br/>
+
+`[ INDEPENDENT BY DESIGN ]` &nbsp; ` [ BUILT WITH CURIOSITY ]` &nbsp; `[ NO BORING SOFTWARE ]`
 
 </div>
 
-<br />
-
-<table align="center" width="96%">
-<tr>
-<td width="50%" valign="top">
-<strong>Desktop & Core</strong><br />
-<sub>Electron · C++ · Monaco Editor · xterm.js</sub>
-</td>
-<td width="50%" valign="top">
-<strong>Extensions & Web</strong><br />
-<sub>Chrome Extension APIs · TypeScript · JavaScript</sub>
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<strong>System & OS</strong><br />
-<sub>Windows Sparse Packages · IExplorerCommand · Linux</sub>
-</td>
-<td width="50%" valign="top">
-<strong>Automation</strong><br />
-<sub>AutoHotkey v2 · MSBuild · PowerShell</sub>
-</td>
-</tr>
-</table>
-
-<br />
-
-<!-- ========================================================= -->
-<!--                    TECHNOLOGY MATRIX                      -->
-<!-- ========================================================= -->
-<h1 align="center">Technology Universe</h1>
-<p align="center">
-  <sub>The practical stack behind local-first desktop apps, native tooling, and browser extensions.</sub>
-</p>
-
-<br />
-
-<table align="center" width="96%">
-<tr>
-<td width="25%" align="center" valign="top">
-  <img src="https://skillicons.dev/icons?i=cpp,electron,vscode,git,github&perline=3&theme=dark" alt="Core" />
-  <h3>Core & IDE</h3>
-  <p><sub>C++<br>Electron<br>VS Code<br>Git & GitHub<br>MSBuild</sub></p>
-</td>
-<td width="25%" align="center" valign="top">
-  <img src="https://skillicons.dev/icons?i=ts,js,react,html,css&perline=3&theme=dark" alt="Web" />
-  <h3>Web & UI</h3>
-  <p><sub>TypeScript<br>JavaScript<br>React<br>HTML / CSS<br>Monaco Editor</sub></p>
-</td>
-<td width="25%" align="center" valign="top">
-  <img src="https://skillicons.dev/icons?i=windows,linux,powershell&perline=3&theme=dark" alt="System" />
-  <h3>System OS</h3>
-  <p><sub>Windows Shell<br>Linux<br>PowerShell<br>Sparse Packages<br>xterm.js</sub></p>
-</td>
-<td width="25%" align="center" valign="top">
-  <img src="https://skillicons.dev/icons?i=python,autohotkey&perline=3&theme=dark" alt="Automation" />
-  <h3>Automation</h3>
-  <p><sub>AutoHotkey v2<br>Python<br>Display Control<br>Audio Detection<br>HDR Monitoring</sub></p>
-</td>
-</tr>
-</table>
-
-<br />
-
-<!-- ========================================================= -->
-<!--                     PROJECTS SECTION                      -->
-<!-- ========================================================= -->
-<h1 align="center">Featured Projects & Systems</h1>
-
-<table align="center" width="96%">
-<tr>
-<td width="50%" valign="top">
-  <h3>🔭 <a href="https://github.com/xCONFLiCTiONx/GitScope" target="_blank" rel="noopener noreferrer">GitScope</a></h3>
-  <p><sub>A high-performance, local-first Git management suite built using Electron, Monaco Editor, and xterm.js for complete repository control.</sub></p>
-</td>
-<td width="50%" valign="top">
-  <h3>🛠️ <a href="https://github.com/xCONFLiCTiONx/xToolsMenu" target="_blank" rel="noopener noreferrer">xToolsMenu</a></h3>
-  <p><sub>Native Windows system utilities built in C++ utilizing IExplorerCommand interfaces and Windows Sparse Packages.</sub></p>
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-  <h3>💾 <a href="https://github.com/xCONFLiCTiONx/xBackup" target="_blank" rel="noopener noreferrer">xBackup</a></h3>
-  <p><sub>A reliable local-first backup and snapshot utility designed for automated system state preservation and data protection.</sub></p>
-</td>
-<td width="50%" valign="top">
-  <h3>🛡️ <a href="https://github.com/xCONFLiCTiONx/Call-Guard-Shield" target="_blank" rel="noopener noreferrer">Call Guard Shield</a></h3>
-  <p><sub>Advanced call filtering and communication architecture designed to intercept, screen, and manage unwanted disruptions.</sub></p>
-</td>
-</tr>
-</table>
-
-<br />
-
-<!-- ========================================================= -->
-<!--                    PROFILE METRICS                        -->
-<!-- ========================================================= -->
-<table align="center">
-<tr>
-<td align="center">
-  <img src="https://komarev.com/ghpvc/?username=xCONFLiCTiONx&style=for-the-badge&color=6366f1&label=PROFILE+VIEWS" alt="Views" />
-</td>
-<td align="center">
-  <img src="https://img.shields.io/github/followers/xCONFLiCTiONx?style=for-the-badge&label=FOLLOWERS&labelColor=020617&color=06b6d4" alt="Followers" />
-</td>
-<td align="center">
-  <img src="https://img.shields.io/github/stars/xCONFLiCTiONx?style=for-the-badge&label=STARS&labelColor=020617&color=f59e0b" alt="Stars" />
-</td>
-</tr>
-</table>
-
-<br />
+---
 
 <div align="center">
-  <sub>⚡ Engineered for speed, control, and local-first reliability.</sub>
+
+## `// WHO LOGGED IN?`
+
+</div>
+
+> **User:** xCONFLiCTiONx  
+> **Occupation:** Professional button-clicker turned button-builder  
+> **Alignment:** Chaotic productive  
+> **Location:** Somewhere between a terminal and a terrible idea  
+> **Current mission:** Making software do what it should have done in the first place.
+
+I'm an independent developer who enjoys building practical software, experimenting with systems, and figuring out how things work under the hood.
+
+I like useful tools, customizable workflows, privacy-focused technology, and software that gives people control instead of hiding everything behind a subscription.
+
+I don't just want to use my computer. I want to understand it, customize it, and occasionally make it do things it probably wasn't expecting.
+
+**This is my little corner of the internet. Look around.**
+
+---
+
+<div align="center">
+
+## `// THE PROJECT ARCHIVE`
+
+*Things I've built, things I'm building, and things that started as "what if..."*
+
+</div>
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 🛡️ xPrivacy Guard
+
+Privacy and tracking protection experiments.
+
+Browser-side defenses, privacy signals, fingerprinting countermeasures, and custom filtering.
+
+`PRIVACY` `BROWSER SECURITY`
+
+</td>
+<td width="50%" valign="top">
+
+### 🖥️ GitScope
+
+A desktop development workspace.
+
+Exploring a more integrated coding environment with repository tools, terminals, code editing, and AI-assisted workflows.
+
+`ELECTRON` `DEVELOPER TOOLS`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### ⚙️ Windows Utilities
+
+Small tools. Big quality-of-life improvements.
+
+From context-menu enhancements to practical desktop utilities, automation, and system customization.
+
+`WINDOWS` `AUTOMATION`
+
+</td>
+<td width="50%" valign="top">
+
+### 🌐 xCONFLiCTiONx Web Tools
+
+My own little workshop on the web.
+
+Browser-based utilities, image manipulation, website diagnostics, and security-oriented experiments.
+
+`WEB DEVELOPMENT` `SELF-HOSTED TOOLS`
+
+</td>
+</tr>
+</table>
+
+<div align="center">
+
+[**EXPLORE THE REPOSITORIES →**](https://github.com/xCONFLiCTiONx?tab=repositories)
+
+</div>
+
+---
+
+<div align="center">
+
+## `// MY TOOLKIT`
+
+*The tools are just tools. Knowing what to do with them is the fun part.*
+
+</div>
+
+<p align="center">
+<img src="https://skillicons.dev/icons?i=windows,cs,cpp,js,html,css,python,powershell,git,github,vscode,electron,cloudflare&perline=7" alt="Technology icons"/>
+</p>
+
+<div align="center">
+
+`CODE` · `DEBUG` · `AUTOMATE` · `OPTIMIZE` · `REPEAT`
+
+</div>
+
+---
+
+<div align="center">
+
+## `// SYSTEM TELEMETRY`
+
+*Public GitHub activity. No promises of impressive numbers.*
+
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=xCONFLiCTiONx&show_icons=true&hide_border=true&bg_color=080808&title_color=00FF9C&icon_color=00FF9C&text_color=C9D1D9&ring_color=00FF9C" alt="GitHub statistics"/>
+
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=xCONFLiCTiONx&layout=compact&hide_border=true&bg_color=080808&title_color=00FF9C&text_color=C9D1D9" alt="Most-used languages"/>
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=xCONFLiCTiONx&hide_border=true&background=080808&ring=00FF9C&fire=FF4D6D&currStreakLabel=00FF9C&sideLabels=C9D1D9&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=777777" alt="GitHub contribution streak"/>
+
+</div>
+
+---
+
+<div align="center">
+
+## `// INTERNET TIME CAPSULE`
+
+</div>
+
+Remember when the internet felt like a collection of weird personal websites, custom layouts, questionable color schemes, and people who actually had a personality online?
+
+Yeah. That energy.
+
+This profile is a little tribute to the old web: personal, customizable, slightly chaotic, and unapologetically yours.
+
+**No corporate personality generator. No polished fake guru routine. Just projects, experiments, and the occasional questionable engineering decision.**
+
+---
+
+<div align="center">
+
+## `// LEAVE A TRACE`
+
+If something here is useful, interesting, or makes you think *"wait, you can do that?"* — check out the repositories.
+
+[![Explore Projects](https://img.shields.io/badge/EXPLORE_PROJECTS-00FF9C?style=for-the-badge&logo=github&logoColor=080808&labelColor=080808)](https://github.com/xCONFLiCTiONx?tab=repositories)
+
+<br/>
+
+<img src="https://komarev.com/ghpvc/?username=xCONFLiCTiONx&style=for-the-badge&color=00ff9c&label=PROFILE+VISITS" alt="Profile visit counter"/>
+
+<br/><br/>
+
+<sub>© xCONFLiCTiONx · Built on curiosity, caffeine, and the refusal to leave things alone.</sub>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=050505&height=100&section=footer" width="100%" alt="Footer"/>
+
 </div>
