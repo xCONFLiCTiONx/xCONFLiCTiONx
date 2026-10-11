@@ -622,3 +622,37 @@
 */blockadblock.$script,redirect=blockadblock.js-3.2.0:5
 */blockadblock-$script,redirect=blockadblock.js-3.2.0:5
 */wp-adblock-$script,redirect=wp-adblock.js-3.2.0:5
+
+! ----- PEACOCK ULTIMATE AGGRESSIVE BLOCK LIST v2.7 (uBlock Origin / Extension Ready) -----
+! Purpose: Aggressively block Peacock ad shards and ad tech while preserving VOD and live playback.
+
+! === ALLOWLIST ===
+@@||assets.adobedtm.com^
+@@||ingest.webcol.sdp.peacocktv.com^
+
+! === PEACOCK DOMAINS ===
+||vac.peacocktv.com^$important
+||sas.peacocktv.com^$important
+||*.vac.peacocktv.com^$important
+
+! === MEDIATAILOR SSAI ===
+||mediatailor.*.amazonaws.com^$important
+
+! === FREEWHEEL CSAI ===
+||*.fwmrm.net^$important
+||video-ads-module.ad-tech.nbcuni.com^$important
+
+! === CDN AD SHARDS ===
+/^g\d{1,4}-(vod|sf|sle)-us-cmaf-prd-(cf|cc|ak|ph|dc|at)(-[a-z0-9]+)?\.cdn\.peacocktv\.com$/$doc,xhr,1p,important
+
+! === NETSKRT ===
+/^g\d{1,4}-[a-z0-9]+-us-cmaf-prd-(?!ns)[a-z0-9-]+\.prd\.pck\.netskrt\.net$/$doc,xhr,1p
+
+! === TELEMETRY ===
+||identity.mparticle.com^$important
+||census-app.scorecardresearch.com^$important
+||sb.scorecardresearch.com^$important
+||nbcstreaming.sc.omtrdc.net^$important
+||nbcstreaming.hb-api.omtrdc.net^$important
+||s0.2mdn.net^
+||ad.doubleclick.net^
