@@ -629,3 +629,18 @@
 ||track.activemetering.com^$all
 ||tracker.nbcuas.com^$all
 ||omtrdc.net^$all
+
+! ============================================================
+! PEACOCK DYNAMIC AD INSERTION & BEACONS (Added from Log Analysis)
+! ============================================================
+
+||fwmrm.net^$all
+||*.fwmrm.net^$all
+||extremereach.io^$all
+||beacons.extremereach.io^$all
+||hrzn-nxt.com^$all
+||tracker.nbcuas.com^$all
+||scorecardresearch.com^$all
+||imrworldwide.com^$all
+||omtrdc.net^$all
+||cws.conviva.com^$all
