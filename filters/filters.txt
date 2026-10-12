@@ -5,6 +5,65 @@
 !
 
 ! ============================================================
+! PEACOCK / NBC STREAMING ADS
+! ============================================================
+
+! Peacock ad configuration and advertising services
+||vac.peacocktv.com^$all
+||sas.peacocktv.com^$all
+||video-ads-module.ad-tech.nbcuni.com^$all
+
+! Server-side ad insertion
+||mt.ssai.peacocktv.com^$all
+||ssai.peacocktv.com^$all
+||fwmrm.net^$all
+||mediatailor.us-east-1.amazonaws.com^$all
+
+! Peacock advertising and tracking
+||analytics.peacocktv.com^$all
+||tracking.peacocktv.com^$all
+||peacock-analytics.com^$all
+||peacock-tracking.com^$all
+||identity.mparticle.com^$all
+||config2.mparticle.com^$all
+||census-app.scorecardresearch.com^$all
+||sb.scorecardresearch.com^$all
+||nbcstreaming.sc.omtrdc.net^$all
+||nbcstreaming.hb-api.omtrdc.net^$all
+||telemetry.nbcuott.com^$all
+
+! Common Peacock ad-tech
+||s0.2mdn.net^$all
+||ad.doubleclick.net^$all
+||ads.ironsrc.mobi^$all
+
+! ============================================================
+! PEACOCK — OBSERVED ADVERTISING / AD MEASUREMENT
+! ============================================================
+
+||29773.v.fwmrm.net^$all
+||beacons.extremereach.io^$all
+||creditkarma.hrzn-nxt.com^$all
+||track.activemetering.com^$all
+||tracker.nbcuas.com^$all
+||omtrdc.net^$all
+
+! ============================================================
+! PEACOCK DYNAMIC AD INSERTION & BEACONS (Added from Log Analysis)
+! ============================================================
+
+||fwmrm.net^$all
+||*.fwmrm.net^$all
+||extremereach.io^$all
+||beacons.extremereach.io^$all
+||hrzn-nxt.com^$all
+||tracker.nbcuas.com^$all
+||scorecardresearch.com^$all
+||imrworldwide.com^$all
+||omtrdc.net^$all
+||cws.conviva.com^$all
+
+! ============================================================
 ! AD NETWORKS / AD DELIVERY
 ! ============================================================
 
@@ -585,62 +644,3 @@
 ||adserver.^\$all
 ||adserver-^\$all
 ||adsrv.^$all \vert{}\vert{}adservice.^$
-
-! ============================================================
-! PEACOCK / NBC STREAMING ADS
-! ============================================================
-
-! Peacock ad configuration and advertising services
-||vac.peacocktv.com^$all
-||sas.peacocktv.com^$all
-||video-ads-module.ad-tech.nbcuni.com^$all
-
-! Server-side ad insertion
-||mt.ssai.peacocktv.com^$all
-||ssai.peacocktv.com^$all
-||fwmrm.net^$all
-||mediatailor.us-east-1.amazonaws.com^$all
-
-! Peacock advertising and tracking
-||analytics.peacocktv.com^$all
-||tracking.peacocktv.com^$all
-||peacock-analytics.com^$all
-||peacock-tracking.com^$all
-||identity.mparticle.com^$all
-||config2.mparticle.com^$all
-||census-app.scorecardresearch.com^$all
-||sb.scorecardresearch.com^$all
-||nbcstreaming.sc.omtrdc.net^$all
-||nbcstreaming.hb-api.omtrdc.net^$all
-||telemetry.nbcuott.com^$all
-
-! Common Peacock ad-tech
-||s0.2mdn.net^$all
-||ad.doubleclick.net^$all
-||ads.ironsrc.mobi^$all
-
-! ============================================================
-! PEACOCK — OBSERVED ADVERTISING / AD MEASUREMENT
-! ============================================================
-
-||29773.v.fwmrm.net^$all
-||beacons.extremereach.io^$all
-||creditkarma.hrzn-nxt.com^$all
-||track.activemetering.com^$all
-||tracker.nbcuas.com^$all
-||omtrdc.net^$all
-
-! ============================================================
-! PEACOCK DYNAMIC AD INSERTION & BEACONS (Added from Log Analysis)
-! ============================================================
-
-||fwmrm.net^$all
-||*.fwmrm.net^$all
-||extremereach.io^$all
-||beacons.extremereach.io^$all
-||hrzn-nxt.com^$all
-||tracker.nbcuas.com^$all
-||scorecardresearch.com^$all
-||imrworldwide.com^$all
-||omtrdc.net^$all
-||cws.conviva.com^$all
