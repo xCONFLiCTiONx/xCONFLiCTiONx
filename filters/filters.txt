@@ -618,3 +618,14 @@
 ||s0.2mdn.net^$all
 ||ad.doubleclick.net^$all
 ||ads.ironsrc.mobi^$all
+
+! ============================================================
+! PEACOCK — OBSERVED ADVERTISING / AD MEASUREMENT
+! ============================================================
+
+||29773.v.fwmrm.net^$all
+||beacons.extremereach.io^$all
+||creditkarma.hrzn-nxt.com^$all
+||track.activemetering.com^$all
+||tracker.nbcuas.com^$all
+||omtrdc.net^$all
