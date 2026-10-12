@@ -4,7 +4,7 @@
 ! Filters only. No scriptlets or extension-code dependencies.
 !
 
-! === TEST RULE TO VERIFY FILTERING ===
+! TEST RULE TO VERIFY FILTERING
 ||check.xprivacyguard.internal^$all
 
 ! ============================================================
