@@ -4,6 +4,9 @@
 ! Filters only. No scriptlets or extension-code dependencies.
 !
 
+! === TEST RULE TO VERIFY FILTERING ===
+||check.xprivacyguard.internal^$all
+
 ! ============================================================
 ! PEACOCK / NBC STREAMING ADS
 ! ============================================================
