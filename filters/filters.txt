@@ -5,36 +5,6 @@
 !
 
 ! ============================================================
-! PEACOCK ULTIMATE AGGRESSIVE BLOCK LIST v2.7 (Converted)
-! ============================================================
-
-! === ALLOWLIST ===
-@@||assets.adobedtm.com^
-@@||ingest.webcol.sdp.peacocktv.com^
-
-! === PEACOCK DOMAINS ===
-||vac.peacocktv.com^
-||sas.peacocktv.com^
-||*.vac.peacocktv.com^
-
-! === MEDIATAILOR SSAI ===
-/mediatailor./
-
-! === FREEWHEEL CSAI ===
-||fwmrm.net^
-||*.fwmrm.net^
-||video-ads-module.ad-tech.nbcuni.com^
-
-! === TELEMETRY & TRACKING ===
-||identity.mparticle.com^
-||census-app.scorecardresearch.com^
-||sb.scorecardresearch.com^
-||nbcstreaming.sc.omtrdc.net^
-||nbcstreaming.hb-api.omtrdc.net^
-||s0.2mdn.net^
-||ad.doubleclick.net^
-
-! ============================================================
 ! PEACOCK / NBC STREAMING ADS
 ! ============================================================
 
