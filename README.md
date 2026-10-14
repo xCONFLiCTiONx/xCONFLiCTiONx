@@ -1,184 +1,119 @@
 <!--
-    xCONFLiCTiONx — PERSONAL HOMEPAGE
-    An old-web-inspired GitHub profile.
+    xCONFLiCTiONx — PROFILE README
+    Directive-driven builder. Independent by design.
 -->
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=050505&height=180&section=header&text=xCONFLiCTiONx&fontSize=52&fontColor=00FF9C&fontAlignY=38&desc=INDEPENDENT%20DEVELOPER%20%2F%20SYSTEM%20TINKERER&descSize=13&descAlignY=60&animation=fadeIn" width="100%" alt="xCONFLiCTiONx header"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=050505&height=180&section=header&text=xCONFLiCTiONx&fontSize=52&fontColor=00FF9C&fontAlignY=38&desc=SYSTEM%20ARCHITECT%20%2F%20INTELLIGENCE%20DIRECTOR&descSize=13&descAlignY=60&animation=fadeIn" width="100%" alt="xCONFLiCTiONx header"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Courier+New&size=15&duration=2800&pause=900&color=00FF9C&center=true&vCenter=true&width=600&lines=Welcome+to+my+corner+of+the+internet.;Building+tools%2C+not+another+subscription.;Privacy+is+a+feature%2C+not+a+marketing+line.;If+it+can+be+automated%2C+I+will+probably+try." alt="Animated terminal text"/>
+<img src="https://readme-typing-svg.demolab.com?font=Courier+New&size=15&duration=3000&pause=1000&color=00FF9C&center=true&vCenter=true&width=620&lines=Welcome+to+2026%3A+Syntax+is+cheap.+Vision+is+everything.;Directing+intelligence%2C+not+grinding+boilerplate.;Building+real+tools%2C+zero+subscriptions.;If+software+doesn't+respect+you%2C+replace+it." alt="Terminal typing text"/>
 
 <br/>
 
-[![Website](https://img.shields.io/badge/🌐_PERSONAL_SITE-xconflictionx.cc-00FF9C?style=for-the-badge&labelColor=080808)](https://xconflictionx.cc/)
+[![Website](https://img.shields.io/badge/🌐_DISPATCH-xconflictionx.cc-00FF9C?style=for-the-badge&labelColor=080808)](https://xconflictionx.cc/)
 [![GitHub](https://img.shields.io/badge/GITHUB-xCONFLiCTiONx-FFFFFF?style=for-the-badge&logo=github&logoColor=00FF9C&labelColor=080808)](https://github.com/xCONFLiCTiONx)
-![Status](https://img.shields.io/badge/STATUS-ALWAYS_TINKERING-00FF9C?style=for-the-badge&labelColor=080808)
+![Status](https://img.shields.io/badge/OPERATING_MODE-BUILDING_FROM_MIND-00FF9C?style=for-the-badge&labelColor=080808)
 
 <br/>
 
-`[ INDEPENDENT BY DESIGN ]` &nbsp; ` [ BUILT WITH CURIOSITY ]` &nbsp; `[ NO BORING SOFTWARE ]`
+`[ ARCHITECTURE OVER SYNTAX ]` &nbsp; `[ SOVEREIGN SOFTWARE ]` &nbsp; `[ ZERO SUBSCRIPTION BLOAT ]`
 
 </div>
 
 ---
 
-<div align="center">
+### `// THE DIRECTIVE`
 
-## `// WHO LOGGED IN?`
+> **"We spent years banging our heads against tedious syntax so we could finally arrive at the future: direct from mind to machine."**
 
-</div>
+Remember when devs treated memorizing language quirks and boilerplate like a badge of honor? **Welcome to 2026.**
 
-> **User:** xCONFLiCTiONx  
-> **Occupation:** Professional button-clicker turned button-builder  
-> **Alignment:** Chaotic productive  
-> **Location:** Somewhere between a terminal and a terrible idea  
-> **Current mission:** Making software do what it should have done in the first place.
+The machine writes the code; I provide the direction, architecture, and intent. No bloated tech-stack resume flexes. No 40-icon skill badge walls. Just working systems, relentless tinkering, and software built because the existing options were bloated, gated behind a paywall, or selling user telemetry.
 
-I'm an independent developer who enjoys building practical software, experimenting with systems, and figuring out how things work under the hood.
-
-I like useful tools, customizable workflows, privacy-focused technology, and software that gives people control instead of hiding everything behind a subscription.
-
-I don't just want to use my computer. I want to understand it, customize it, and occasionally make it do things it probably wasn't expecting.
-
-**This is my little corner of the internet. Look around.**
+If it invades privacy, strip it out. If it charges monthly for an offline utility, build a replacement. If it’s tedious, automate it.
 
 ---
 
-<div align="center">
-
-## `// THE PROJECT ARCHIVE`
-
-*Things I've built, things I'm building, and things that started as "what if..."*
-
-</div>
+### `// CORE DOMAINS`
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### 🛡️ xPrivacy Guard
-
-Privacy and tracking protection experiments.
-
-Browser-side defenses, privacy signals, fingerprinting countermeasures, and custom filtering.
-
-`PRIVACY` `BROWSER SECURITY`
+#### 🛡️ Privacy & Countermeasures
+Sovereign computing, network shielding, and telemetry eradication.
+* Browser hardening and fingerprint mitigation ([xPrivacyGuard](https://github.com/xCONFLiCTiONx/xPrivacyGuard))
+* Self-hosted WireGuard tunnel architecture ([PrivacyWireGuard](https://github.com/xCONFLiCTiONx/PrivacyWireGuard))
+* Anti-tracking scripts & element suppression
 
 </td>
 <td width="50%" valign="top">
 
-### 🖥️ GitScope
-
-A desktop development workspace.
-
-Exploring a more integrated coding environment with repository tools, terminals, code editing, and AI-assisted workflows.
-
-`ELECTRON` `DEVELOPER TOOLS`
+#### ⚡ Direct Developer Workspaces
+Unified developer environments built for speed and AI orchestration.
+* Integrated workspace & terminal suite ([GitScope](https://github.com/xCONFLiCTiONx/GitScope))
+* Agentic tooling & GitHub MCP servers ([gemini-github-mcp](https://github.com/xCONFLiCTiONx/gemini-github-mcp))
+* Workflow accelerators that cut down cognitive friction
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-### ⚙️ Windows Utilities
-
-Small tools. Big quality-of-life improvements.
-
-From context-menu enhancements to practical desktop utilities, automation, and system customization.
-
-`WINDOWS` `AUTOMATION`
+#### ⚙️ Windows & System Tooling
+No-bullshit utilities that make the OS behave like it should.
+* Shell and desktop customizations ([xToolsMenu](https://github.com/xCONFLiCTiONx/xToolsMenu))
+* Context-menu productivity extensions
+* Low-level automation, locking, and system monitors
 
 </td>
 <td width="50%" valign="top">
 
-### 🌐 xCONFLiCTiONx Web Tools
-
-My own little workshop on the web.
-
-Browser-based utilities, image manipulation, website diagnostics, and security-oriented experiments.
-
-`WEB DEVELOPMENT` `SELF-HOSTED TOOLS`
+#### 🌐 Sovereign Web Tools
+Lightweight, subscription-free web utilities that run client-side.
+* File decoders, unlockers, and PDF manipulation
+* Diagnostics, visual tooling, and web asset converters
+* Clean tools you own forever, not rent for $12/month
 
 </td>
 </tr>
 </table>
 
+---
+
+### `// FEATURED REPOSITORIES`
+
+| Repository | Focus | Status |
+| :--- | :--- | :--- |
+| **[GitScope](https://github.com/xCONFLiCTiONx/GitScope)** | Integrated desktop environment & developer cockpit | `Active` |
+| **[xPrivacyGuard](https://github.com/xCONFLiCTiONx/xPrivacyGuard)** | Client-side tracking countermeasures & privacy defenses | `Active` |
+| **[PrivacyWireGuard](https://github.com/xCONFLiCTiONx/PrivacyWireGuard)** | Automated private WireGuard VPN deployments | `Active` |
+| **[xToolsMenu](https://github.com/xCONFLiCTiONx/xToolsMenu)** | Custom OS context menu power tools and automation | `Active` |
+
 <div align="center">
 
-[**EXPLORE THE REPOSITORIES →**](https://github.com/xCONFLiCTiONx?tab=repositories)
+[**VIEW ALL REPOSITORIES →**](https://github.com/xCONFLiCTiONx?tab=repositories)
 
 </div>
 
 ---
 
-<div align="center">
+### `// THE PHILOSOPHY`
 
-## `// MY TOOLKIT`
-
-*The tools are just tools. Knowing what to do with them is the fun part.*
-
-</div>
-
-<p align="center">
-<img src="https://skillicons.dev/icons?i=windows,cs,cpp,js,html,css,python,powershell,git,github,vscode,electron,cloudflare&perline=7" alt="Technology icons"/>
-</p>
-
-<div align="center">
-
-`CODE` · `DEBUG` · `AUTOMATE` · `OPTIMIZE` · `REPEAT`
-
-</div>
+* **Own, don't rent:** Software should run on your metal without asking permission from a licensing server every 30 days.
+* **Direct, don't grind:** Brain cycles belong to architecture, edge cases, and user experience — not debugging missing semicolons.
+* **Old-web soul:** The internet was better when it was weird, customizable, decentralized, and built by individuals instead of algorithmic ad-mills.
 
 ---
 
 <div align="center">
-
-## `// SYSTEM TELEMETRY`
-
-*Public GitHub activity. No promises of impressive numbers.*
-
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=xCONFLiCTiONx&show_icons=true&hide_border=true&bg_color=080808&title_color=00FF9C&icon_color=00FF9C&text_color=C9D1D9&ring_color=00FF9C" alt="GitHub statistics"/>
-
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=xCONFLiCTiONx&layout=compact&hide_border=true&bg_color=080808&title_color=00FF9C&text_color=C9D1D9" alt="Most-used languages"/>
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=xCONFLiCTiONx&hide_border=true&background=080808&ring=00FF9C&fire=FF4D6D&currStreakLabel=00FF9C&sideLabels=C9D1D9&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=777777" alt="GitHub contribution streak"/>
-
-</div>
-
----
-
-<div align="center">
-
-## `// INTERNET TIME CAPSULE`
-
-</div>
-
-Remember when the internet felt like a collection of weird personal websites, custom layouts, questionable color schemes, and people who actually had a personality online?
-
-Yeah. That energy.
-
-This profile is a little tribute to the old web: personal, customizable, slightly chaotic, and unapologetically yours.
-
-**No corporate personality generator. No polished fake guru routine. Just projects, experiments, and the occasional questionable engineering decision.**
-
----
-
-<div align="center">
-
-## `// LEAVE A TRACE`
-
-If something here is useful, interesting, or makes you think *"wait, you can do that?"* — check out the repositories.
-
-[![Explore Projects](https://img.shields.io/badge/EXPLORE_PROJECTS-00FF9C?style=for-the-badge&logo=github&logoColor=080808&labelColor=080808)](https://github.com/xCONFLiCTiONx?tab=repositories)
-
-<br/>
 
 <img src="https://komarev.com/ghpvc/?username=xCONFLiCTiONx&style=for-the-badge&color=00ff9c&label=PROFILE+VISITS" alt="Profile visit counter"/>
 
 <br/><br/>
 
-<sub>© xCONFLiCTiONx · Built on curiosity, caffeine, and the refusal to leave things alone.</sub>
+<sub>Directing machines · Rejecting subscriptions · xCONFLiCTiONx</sub>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=050505&height=100&section=footer" width="100%" alt="Footer"/>
 
