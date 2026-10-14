@@ -1,120 +1,115 @@
 <!--
-    xCONFLiCTiONx — PROFILE README
-    Directive-driven builder. Independent by design.
+    xCONFLiCTiONx // SOVEREIGN SYSTEM ARCHITECT
+    2026 :: Mind-to-Machine Directive
 -->
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=050505&height=180&section=header&text=xCONFLiCTiONx&fontSize=52&fontColor=00FF9C&fontAlignY=38&desc=SYSTEM%20ARCHITECT%20%2F%20INTELLIGENCE%20DIRECTOR&descSize=13&descAlignY=60&animation=fadeIn" width="100%" alt="xCONFLiCTiONx header"/>
-
-<img src="https://readme-typing-svg.demolab.com?font=Courier+New&size=15&duration=3000&pause=1000&color=00FF9C&center=true&vCenter=true&width=620&lines=Welcome+to+2026%3A+Syntax+is+cheap.+Vision+is+everything.;Directing+intelligence%2C+not+grinding+boilerplate.;Building+real+tools%2C+zero+subscriptions.;If+software+doesn't+respect+you%2C+replace+it." alt="Terminal typing text"/>
+<img src="https://capsule-render.vercel.app/api?type=slice&color=050505&height=200&section=header&text=xCONFLiCTiONx&fontSize=64&fontColor=00FF9C&fontAlignY=38&desc=SYSTEM%20ARCHITECT%20%7C%20INTELLIGENCE%20DIRECTOR%20%7C%202026&descSize=14&descAlignY=62&animation=fadeIn" width="100%" alt="xCONFLiCTiONx Header"/>
 
 <br/>
 
-[![Website](https://img.shields.io/badge/🌐_DISPATCH-xconflictionx.cc-00FF9C?style=for-the-badge&labelColor=080808)](https://xconflictionx.cc/)
-[![GitHub](https://img.shields.io/badge/GITHUB-xCONFLiCTiONx-FFFFFF?style=for-the-badge&logo=github&logoColor=00FF9C&labelColor=080808)](https://github.com/xCONFLiCTiONx)
-![Status](https://img.shields.io/badge/OPERATING_MODE-BUILDING_FROM_MIND-00FF9C?style=for-the-badge&labelColor=080808)
-
-<br/>
-
-`[ ARCHITECTURE OVER SYNTAX ]` &nbsp; `[ SOVEREIGN SOFTWARE ]` &nbsp; `[ ZERO SUBSCRIPTION BLOAT ]`
-
-</div>
-
----
-
-### `// THE DIRECTIVE`
-
-> **"We spent years banging our heads against tedious syntax so we could finally arrive at the future: direct from mind to machine."**
-
-Remember when devs treated memorizing language quirks and boilerplate like a badge of honor? **Welcome to 2026.**
-
-The machine writes the code; I provide the direction, architecture, and intent. No bloated tech-stack resume flexes. No 40-icon skill badge walls. Just working systems, relentless tinkering, and software built because the existing options were bloated, gated behind a paywall, or selling user telemetry.
-
-If it invades privacy, strip it out. If it charges monthly for an offline utility, build a replacement. If it’s tedious, automate it.
-
----
-
-### `// CORE DOMAINS`
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-#### 🛡️ Privacy & Countermeasures
-Sovereign computing, network shielding, and telemetry eradication.
-* Browser hardening and fingerprint mitigation ([xPrivacyGuard](https://github.com/xCONFLiCTiONx/xPrivacyGuard))
-* Self-hosted WireGuard tunnel architecture ([PrivacyWireGuard](https://github.com/xCONFLiCTiONx/PrivacyWireGuard))
-* Anti-tracking scripts & element suppression
-
-</td>
-<td width="50%" valign="top">
-
-#### ⚡ Direct Developer Workspaces
-Unified developer environments built for speed and AI orchestration.
-* Integrated workspace & terminal suite ([GitScope](https://github.com/xCONFLiCTiONx/GitScope))
-* Agentic tooling & GitHub MCP servers ([gemini-github-mcp](https://github.com/xCONFLiCTiONx/gemini-github-mcp))
-* Workflow accelerators that cut down cognitive friction
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-#### ⚙️ Windows & System Tooling
-No-bullshit utilities that make the OS behave like it should.
-* Shell and desktop customizations ([xToolsMenu](https://github.com/xCONFLiCTiONx/xToolsMenu))
-* Context-menu productivity extensions
-* Low-level automation, locking, and system monitors
-
-</td>
-<td width="50%" valign="top">
-
-#### 🌐 Sovereign Web Tools
-Lightweight, subscription-free web utilities that run client-side.
-* File decoders, unlockers, and PDF manipulation
-* Diagnostics, visual tooling, and web asset converters
-* Clean tools you own forever, not rent for $12/month
-
-</td>
-</tr>
-</table>
-
----
-
-### `// FEATURED REPOSITORIES`
-
-| Repository | Focus | Status |
-| :--- | :--- | :--- |
-| **[GitScope](https://github.com/xCONFLiCTiONx/GitScope)** | Integrated desktop environment & developer cockpit | `Active` |
-| **[xPrivacyGuard](https://github.com/xCONFLiCTiONx/xPrivacyGuard)** | Client-side tracking countermeasures & privacy defenses | `Active` |
-| **[PrivacyWireGuard](https://github.com/xCONFLiCTiONx/PrivacyWireGuard)** | Automated private WireGuard VPN deployments | `Active` |
-| **[xToolsMenu](https://github.com/xCONFLiCTiONx/xToolsMenu)** | Custom OS context menu power tools and automation | `Active` |
-
-<div align="center">
-
-[**VIEW ALL REPOSITORIES →**](https://github.com/xCONFLiCTiONx?tab=repositories)
-
-</div>
-
----
-
-### `// THE PHILOSOPHY`
-
-* **Own, don't rent:** Software should run on your metal without asking permission from a licensing server every 30 days.
-* **Direct, don't grind:** Brain cycles belong to architecture, edge cases, and user experience — not debugging missing semicolons.
-* **Old-web soul:** The internet was better when it was weird, customizable, decentralized, and built by individuals instead of algorithmic ad-mills.
-
----
-
-<div align="center">
-
-<img src="https://komarev.com/ghpvc/?username=xCONFLiCTiONx&style=for-the-badge&color=00ff9c&label=PROFILE+VISITS" alt="Profile visit counter"/>
+[![Status](https://img.shields.io/badge/OPERATING_SYSTEM-SOVEREIGN_MIND-00FF9C?style=for-the-badge&labelColor=050505&color=00FF9C)](https://github.com/xCONFLiCTiONx)
+[![Paradigm](https://img.shields.io/badge/PARADIGM-DIRECT_FROM_THOUGHT-00FF9C?style=for-the-badge&labelColor=050505&color=00FF9C)](https://github.com/xCONFLiCTiONx)
+[![Anti-SaaS](https://img.shields.io/badge/SUBSCRIPTIONS-0%20REJECTED-00FF9C?style=for-the-badge&labelColor=050505&color=00FF9C)](https://github.com/xCONFLiCTiONx)
+[![Website](https://img.shields.io/badge/🌐_DISPATCH-xconflictionx.cc-FFFFFF?style=for-the-badge&labelColor=050505&logo=firefox&logoColor=00FF9C)](https://xconflictionx.cc/)
 
 <br/><br/>
 
-<sub>Directing machines · Rejecting subscriptions · xCONFLiCTiONx</sub>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=2600&pause=800&color=00FF9C&center=true&vCenter=true&width=700&lines=%3E+WELCOME+TO+2026.+SYNTAX+IS+OBSOLETE.;%3E+WE+DIRECT+INTELLIGENCE.+WE+DON'T+GRIND+BOILERPLATE.;%3E+BUILDING+WHAT+WE+ENVISION.+ZERO+COMPROMISE.;%3E+IF+SOFTWARE+CHARGES+RENT+FOR+UTILITY%2C+REPLACE+IT." alt="Console Typist"/>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=050505&height=100&section=footer" width="100%" alt="Footer"/>
+</div>
+
+```yaml
+# ==============================================================================
+# OPERATOR IDENTITY : xCONFLiCTiONx
+# NODE STATUS       : ONLINE // DIRECTING FROM INTENT
+# YEAR              : 2026
+# ==============================================================================
+profile:
+  role: "System Architect & Direct-from-Mind Builder"
+  stance: "Anti-Telemetry, Anti-Subscription, Sovereign Systems"
+  philosophy: "Offload the syntax to the machine. Keep the vision in the skull."
+  stack: "Whatever gets the tool built from thought to production in minutes."
+```
+
+### `[ 01 // THE 2026 MANIFESTO ]`
+
+> **"Welcome to 2026. If you're still bragging about memorizing forty programming languages, you're clinging to the shovel while the excavator is running."**
+
+We spent years banging our heads against compiler errors, boilerplate configurations, and punctuation quirks. That era is done.
+
+The machines handle the syntax now. The actual skill is **knowing what should exist, architecting how it functions, and having the audacity to build it yourself.**
+
+I don't build software to pad a resume or collect corporate badge icons. I build software because:
+1. **The commercial alternative charges $15/month for basic local utility.** (Garbage. Replaced.)
+2. **The official app harvests telemetry and sells user habits.** (Hostile. Blindfolded.)
+3. **The operating system doesn't do what I want it to do out of the box.** (Fixed with custom tools.)
+
+---
+
+### `[ 02 // REJECTED vs. EMBRACED ]`
+
+| ⛔ THE REJECT LIST | ⚡ THE DIRECTIVE |
+| :--- | :--- |
+| **Language Resume Flexes** (AI writes the syntax anyway) | **Direct-from-Mind Architecture** (Vision > Boilerplate) |
+| **Subscription Utility Bloat** ($10/mo to convert a PDF?) | **Local-First & Sovereign Tools** (Run on bare metal, zero fees) |
+| **Telemetry & Fingerprinting** (Tracking user behavior) | **Active Countermeasures & Privacy Shields** |
+| **Closed Walled Gardens** | **Unapologetic, Hackable, Old-Web Energy** |
+
+---
+
+### `[ 03 // ACTIVE WEAPONRY & TOOLING ]`
+
+```bash
+$ ls -la /xCONFLiCTiONx/deployments/
+```
+
+* 🛡️ **[xPrivacyGuard](https://github.com/xCONFLiCTiONx/xPrivacyGuard)**
+  * *Browser-level defense against tracking, telemetry, and canvas fingerprinting.*
+  * `[DEFENSE]` `[PRIVACY]` `[CLIENT-SIDE]`
+
+* 🖥️ **[GitScope](https://github.com/xCONFLiCTiONx/GitScope)**
+  * *Integrated developer cockpit built for rapid AI-directed software creation, terminals, and workspace navigation.*
+  * `[WORKSPACES]` `[AI-INTEGRATION]` `[SYSTEMS]`
+
+* 🔒 **[PrivacyWireGuard](https://github.com/xCONFLiCTiONx/PrivacyWireGuard)**
+  * *Private, high-performance encrypted tunnel configuration without corporate VPN middle-men.*
+  * `[INFRASTRUCTURE]` `[NETWORKING]` `[SECURITY]`
+
+* ⚙️ **[xToolsMenu](https://github.com/xCONFLiCTiONx/xToolsMenu)**
+  * *Windows shell customization and context-menu power utilities that force the OS to behave.*
+  * `[WINDOWS]` `[AUTOMATION]` `[DESKTOP-HACKS]`
+
+* 🤖 **[gemini-github-mcp](https://github.com/xCONFLiCTiONx/gemini-github-mcp)**
+  * *Model Context Protocol engine linking AI cognition directly to repository architecture and file systems.*
+  * `[MCP]` `[AI-DIRECTED]` `[AUTOMATION]`
+
+<div align="center">
+
+[**📂 BROWSE ALL REPOSITORIES →**](https://github.com/xCONFLiCTiONx?tab=repositories)
+
+</div>
+
+---
+
+### `[ 04 // OPERATOR DISPATCH ]`
+
+If you're here looking for standard corporate jargon, you're in the wrong place. If you're building sovereign tools, hacking your desktop, or using intelligence models to manifest software straight out of your head — dive into the repos.
+
+<div align="center">
+
+<br/>
+
+[![Personal Dispatch](https://img.shields.io/badge/TRANSMISSION_SITE-xconflictionx.cc-00FF9C?style=for-the-badge&labelColor=050505)](https://xconflictionx.cc/)
+[![GitHub Repos](https://img.shields.io/badge/CODE_ARCHIVE-GITHUB-00FF9C?style=for-the-badge&labelColor=050505&logo=github&logoColor=00FF9C)](https://github.com/xCONFLiCTiONx?tab=repositories)
+
+<br/><br/>
+
+```
+[ ARCHITECTED FROM INTENT • EXECUTED BY INTELLIGENCE • ZERO BLOAT ]
+```
+
+<img src="https://capsule-render.vercel.app/api?type=slice&color=050505&height=90&section=footer" width="100%" alt="Footer"/>
 
 </div>
