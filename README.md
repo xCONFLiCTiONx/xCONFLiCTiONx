@@ -73,17 +73,9 @@ $ ls -la /xCONFLiCTiONx/deployments/
   * *Integrated developer cockpit built for rapid AI-directed software creation, terminals, and workspace navigation.*
   * `[WORKSPACES]` `[AI-INTEGRATION]` `[SYSTEMS]`
 
-* 🔒 **[PrivacyWireGuard](https://github.com/xCONFLiCTiONx/PrivacyWireGuard)**
-  * *Private, high-performance encrypted tunnel configuration without corporate VPN middle-men.*
-  * `[INFRASTRUCTURE]` `[NETWORKING]` `[SECURITY]`
-
 * ⚙️ **[xToolsMenu](https://github.com/xCONFLiCTiONx/xToolsMenu)**
   * *Windows shell customization and context-menu power utilities that force the OS to behave.*
   * `[WINDOWS]` `[AUTOMATION]` `[DESKTOP-HACKS]`
-
-* 🤖 **[gemini-github-mcp](https://github.com/xCONFLiCTiONx/gemini-github-mcp)**
-  * *Model Context Protocol engine linking AI cognition directly to repository architecture and file systems.*
-  * `[MCP]` `[AI-DIRECTED]` `[AUTOMATION]`
 
 <div align="center">
 
