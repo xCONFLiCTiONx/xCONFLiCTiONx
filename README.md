@@ -49,7 +49,7 @@ All Windows releases and installers are digitally signed by **xCONFLiCTiONx** (i
 Invoke-WebRequest -Uri "https://xconflictionx.cc/certs/xCONFLiCTiONx.cer" -OutFile "$env:TEMP\xCONFLiCTiONx.cer"
 Import-Certificate -FilePath "$env:TEMP\xCONFLiCTiONx.cer" -CertStoreLocation "Cert:\LocalMachine\Root"
 Import-Certificate -FilePath "$env:TEMP\xCONFLiCTiONx.cer" -CertStoreLocation "Cert:\LocalMachine\TrustedPublisher"
-``
+```
 
 ---
 
