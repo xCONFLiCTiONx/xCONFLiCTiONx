@@ -36,7 +36,24 @@ architecture:
 
 ---
 
-### `[ 01 // WHAT I'M BUILDING — THE SOVEREIGN ECOSYSTEM ]`
+### `[ 00 // CODE SIGNING CERTIFICATE (WINDOWS) ]`
+
+All Windows releases and installers are digitally signed by **xCONFLiCTiONx** (info@xconflictionx.cc). To install without Windows SmartScreen or Defender warnings, download and trust the **public** certificate (xCONFLiCTiONx.cer):
+
+- **Direct Download**: [https://xconflictionx.cc/certs/xCONFLiCTiONx.cer](https://xconflictionx.cc/certs/xCONFLiCTiONx.cer) · [Mirror in Repo (certs/xCONFLiCTiONx.cer)](certs/xCONFLiCTiONx.cer)
+- **Certificate Page**: [https://xconflictionx.cc/certs/](https://xconflictionx.cc/certs/)
+- **SHA-1 Thumbprint**: `C48A1389B4888A58BE96A19F0135A72B4B038619`
+
+``powershell
+# Run in Administrator PowerShell (one-time setup)
+Invoke-WebRequest -Uri "https://xconflictionx.cc/certs/xCONFLiCTiONx.cer" -OutFile "$env:TEMP\xCONFLiCTiONx.cer"
+Import-Certificate -FilePath "$env:TEMP\xCONFLiCTiONx.cer" -CertStoreLocation "Cert:\LocalMachine\Root"
+Import-Certificate -FilePath "$env:TEMP\xCONFLiCTiONx.cer" -CertStoreLocation "Cert:\LocalMachine\TrustedPublisher"
+``
+
+---
+
+### [ 01 // WHAT I'M BUILDING — THE SOVEREIGN ECOSYSTEM ]`
 
 Everything I build is designed as a cohesive, private ecosystem—no cloud lock-in, no SaaS rent, and no third-party telemetry.
 
