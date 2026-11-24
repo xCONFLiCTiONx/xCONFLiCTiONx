@@ -44,7 +44,7 @@ All Windows releases and installers are digitally signed by **xCONFLiCTiONx** (i
 - **Certificate Page**: [https://xconflictionx.cc/certs/](https://xconflictionx.cc/certs/)
 - **SHA-1 Thumbprint**: `C48A1389B4888A58BE96A19F0135A72B4B038619`
 
-``powershell
+```powershell
 # Run in Administrator PowerShell (one-time setup)
 Invoke-WebRequest -Uri "https://xconflictionx.cc/certs/xCONFLiCTiONx.cer" -OutFile "$env:TEMP\xCONFLiCTiONx.cer"
 Import-Certificate -FilePath "$env:TEMP\xCONFLiCTiONx.cer" -CertStoreLocation "Cert:\LocalMachine\Root"
