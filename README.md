@@ -13,6 +13,7 @@
 [![Architecture](https://img.shields.io/badge/STACK-LOCAL_FIRST_//_ZERO_TRUST-00FF9C?style=for-the-badge&labelColor=050505)](https://github.com/xCONFLiCTiONx)
 [![Visibility](https://img.shields.io/badge/REPOS-PRIVATE_VAULT_//_NO_SCRAPERS-00FF9C?style=for-the-badge&labelColor=050505)](https://github.com/xCONFLiCTiONx)
 [![Website](https://img.shields.io/badge/DISPATCH-xconflictionx.cc-FFFFFF?style=for-the-badge&labelColor=050505&logo=firefox&logoColor=00FF9C)](https://xconflictionx.cc/)
+[![YouTube](https://img.shields.io/badge/TRANSMISSIONS-@xCONFLiCTiONx-00FF9C?style=for-the-badge&labelColor=050505&logo=youtube&logoColor=FF0000)](https://www.youtube.com/@xCONFLiCTiONx)
 
 <br/><br/>
 
@@ -53,7 +54,48 @@ Import-Certificate -FilePath "$env:TEMP\xCONFLiCTiONx.cer" -CertStoreLocation "C
 
 ---
 
-### [ 01 // WHAT I'M BUILDING — THE SOVEREIGN ECOSYSTEM ]`
+### `[ 01 // PROJECT TRANSMISSIONS — VIDEO SHOWCASE ]`
+
+<div align="center">
+
+<table>
+  <tr>
+    <td align="center" width="760">
+      <a href="https://youtu.be/-P-X7oupI_Y" target="_blank">
+        <img src="https://i.ytimg.com/vi/-P-X7oupI_Y/maxresdefault.jpg" width="720" alt="▶ Watch GitScope for Windows on YouTube"/>
+      </a>
+      <br/><br/>
+      <strong>▶ GitScope for Windows</strong><br/>
+      <sub><i>Automated software showcase produced locally with xProjectFilms</i></sub>
+      <br/><br/>
+      <a href="https://youtu.be/-P-X7oupI_Y">
+        <img src="https://img.shields.io/badge/▶_WATCH_TRANSMISSION-GitScope_for_Windows-00FF9C?style=for-the-badge&labelColor=050505&logo=youtube&logoColor=FF0000" alt="Watch GitScope for Windows"/>
+      </a>
+      <a href="https://www.youtube.com/@xCONFLiCTiONx?sub_confirmation=1">
+        <img src="https://img.shields.io/badge/CHANNEL-@xCONFLiCTiONx-FFFFFF?style=for-the-badge&labelColor=050505&logo=youtube&logoColor=FF0000" alt="YouTube Channel"/>
+      </a>
+    </td>
+  </tr>
+</table>
+
+<!--
+  Add more videos as new <td> or <tr> cards using the exact same template:
+  <td align="center" width="380">
+    <a href="https://youtu.be/VIDEO_ID">
+      <img src="https://i.ytimg.com/vi/VIDEO_ID/maxresdefault.jpg" width="350" alt="▶ Project Name"/>
+    </a><br/><br/>
+    <strong>▶ Project Name</strong><br/>
+    <a href="https://youtu.be/VIDEO_ID">
+      <img src="https://img.shields.io/badge/▶_WATCH-VIDEO-00FF9C?style=for-the-badge&labelColor=050505&logo=youtube&logoColor=FF0000"/>
+    </a>
+  </td>
+-->
+
+</div>
+
+---
+
+### `[ 02 // WHAT I'M BUILDING — THE SOVEREIGN ECOSYSTEM ]`
 
 Everything I build is designed as a cohesive, private ecosystem—no cloud lock-in, no SaaS rent, and no third-party telemetry.
 
@@ -86,7 +128,7 @@ Everything I build is designed as a cohesive, private ecosystem—no cloud lock-
 
 ---
 
-### `[ 02 // CLOSED-LOOP TOPOLOGY ]`
+### `[ 03 // CLOSED-LOOP TOPOLOGY ]`
 
 ```text
   [ WINDOWS WORKSTATION ] ◄────── SSH / Zero-Trust ──────► [ PRIVATE SERVER NODE ]
@@ -106,7 +148,7 @@ Everything I build is designed as a cohesive, private ecosystem—no cloud lock-
 
 ---
 
-### `[ 03 // THE DIRECTIVE: REJECT vs. EMBRACE ]`
+### `[ 04 // THE DIRECTIVE: REJECT vs. EMBRACE ]`
 
 > **"Everyone has access to AI now. Writing boilerplate is no longer the bottleneck—architecting sovereign systems and commanding the tools with precision is."**
 
@@ -120,13 +162,14 @@ Everything I build is designed as a cohesive, private ecosystem—no cloud lock-
 
 ---
 
-### `[ 04 // OPERATOR DISPATCH ]`
+### `[ 05 // OPERATOR DISPATCH ]`
 
 <div align="center">
 
 <br/>
 
 [![Personal Dispatch](https://img.shields.io/badge/TRANSMISSION_SITE-xconflictionx.cc-00FF9C?style=for-the-badge&labelColor=050505)](https://xconflictionx.cc/)
+[![YouTube](https://img.shields.io/badge/YOUTUBE-@xCONFLiCTiONx-00FF9C?style=for-the-badge&labelColor=050505&logo=youtube&logoColor=FF0000)](https://www.youtube.com/@xCONFLiCTiONx)
 [![GitHub](https://img.shields.io/badge/PROFILE-xCONFLiCTiONx-00FF9C?style=for-the-badge&labelColor=050505&logo=github&logoColor=00FF9C)](https://github.com/xCONFLiCTiONx)
 
 <br/><br/>
