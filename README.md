@@ -60,26 +60,41 @@ Import-Certificate -FilePath "$env:TEMP\xCONFLiCTiONx.cer" -CertStoreLocation "C
 
 <table>
   <tr>
-    <td align="center" width="760">
+    <td align="center" width="380">
       <a href="https://xconflictionx.cc/videos/?project=gitscope" target="_blank">
-        <img src="https://i.ytimg.com/vi/-P-X7oupI_Y/maxresdefault.jpg" width="720" alt="▶ Watch GitScope for Windows on xconflictionx.cc"/>
+        <img src="https://i.ytimg.com/vi/-P-X7oupI_Y/maxresdefault.jpg" width="350" alt="▶ Watch GitScope for Windows on xconflictionx.cc"/>
       </a>
       <br/><br/>
       <strong>▶ GitScope for Windows</strong><br/>
-      <sub><i>Automated software showcase produced locally with xProjectFilms</i></sub>
+      <sub><i>Native Windows Git visualization &amp; workflow diagnostics</i></sub>
       <br/><br/>
       <a href="https://xconflictionx.cc/videos/?project=gitscope">
-        <img src="https://img.shields.io/badge/▶_WATCH_ON_SITE-xconflictionx.cc-00FF9C?style=for-the-badge&labelColor=050505&logo=firefox&logoColor=00FF9C" alt="Watch GitScope for Windows on xconflictionx.cc"/>
+        <img src="https://img.shields.io/badge/▶_WATCH-ON_SITE-00FF9C?style=for-the-badge&labelColor=050505&logo=firefox&logoColor=00FF9C" alt="Watch GitScope for Windows on xconflictionx.cc"/>
       </a>
-      <a href="https://xconflictionx.cc/videos/">
-        <img src="https://img.shields.io/badge/ALL_VIDEOS-SHOWCASE-FFFFFF?style=for-the-badge&labelColor=050505" alt="All Project Videos"/>
+    </td>
+    <td align="center" width="380">
+      <a href="https://xconflictionx.cc/videos/?project=xprivacyguard" target="_blank">
+        <img src="https://i.ytimg.com/vi/heFbevJgb30/maxresdefault.jpg" width="350" alt="▶ Watch xPrivacyGuard on xconflictionx.cc"/>
       </a>
-      <a href="https://www.youtube.com/@xCONFLiCTiONx?sub_confirmation=1">
-        <img src="https://img.shields.io/badge/YOUTUBE-@xCONFLiCTiONx-FF0000?style=for-the-badge&labelColor=050505&logo=youtube&logoColor=FF0000" alt="YouTube Channel"/>
+      <br/><br/>
+      <strong>▶ xPrivacyGuard</strong><br/>
+      <sub><i>Zero Trust VPN, DNS filtering &amp; browser privacy suite</i></sub>
+      <br/><br/>
+      <a href="https://xconflictionx.cc/videos/?project=xprivacyguard">
+        <img src="https://img.shields.io/badge/▶_WATCH-ON_SITE-00FF9C?style=for-the-badge&labelColor=050505&logo=firefox&logoColor=00FF9C" alt="Watch xPrivacyGuard on xconflictionx.cc"/>
       </a>
     </td>
   </tr>
 </table>
+
+<br/>
+
+<a href="https://xconflictionx.cc/videos/">
+  <img src="https://img.shields.io/badge/ALL_VIDEOS-xconflictionx.cc-FFFFFF?style=for-the-badge&labelColor=050505" alt="All Project Videos"/>
+</a>
+<a href="https://www.youtube.com/@xCONFLiCTiONx?sub_confirmation=1">
+  <img src="https://img.shields.io/badge/YOUTUBE-@xCONFLiCTiONx-FF0000?style=for-the-badge&labelColor=050505&logo=youtube&logoColor=FF0000" alt="YouTube Channel"/>
+</a>
 
 <!--
   Add more videos as new <td> or <tr> cards (also add the entry to E:\Portfolio\videos\videos-data.js):
