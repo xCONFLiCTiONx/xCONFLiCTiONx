@@ -61,32 +61,35 @@ Import-Certificate -FilePath "$env:TEMP\xCONFLiCTiONx.cer" -CertStoreLocation "C
 <table>
   <tr>
     <td align="center" width="760">
-      <a href="https://youtu.be/-P-X7oupI_Y" target="_blank">
-        <img src="https://i.ytimg.com/vi/-P-X7oupI_Y/maxresdefault.jpg" width="720" alt="▶ Watch GitScope for Windows on YouTube"/>
+      <a href="https://xconflictionx.cc/videos/?project=gitscope" target="_blank">
+        <img src="https://i.ytimg.com/vi/-P-X7oupI_Y/maxresdefault.jpg" width="720" alt="▶ Watch GitScope for Windows on xconflictionx.cc"/>
       </a>
       <br/><br/>
       <strong>▶ GitScope for Windows</strong><br/>
       <sub><i>Automated software showcase produced locally with xProjectFilms</i></sub>
       <br/><br/>
-      <a href="https://youtu.be/-P-X7oupI_Y">
-        <img src="https://img.shields.io/badge/▶_WATCH_TRANSMISSION-GitScope_for_Windows-00FF9C?style=for-the-badge&labelColor=050505&logo=youtube&logoColor=FF0000" alt="Watch GitScope for Windows"/>
+      <a href="https://xconflictionx.cc/videos/?project=gitscope">
+        <img src="https://img.shields.io/badge/▶_WATCH_ON_SITE-xconflictionx.cc-00FF9C?style=for-the-badge&labelColor=050505&logo=firefox&logoColor=00FF9C" alt="Watch GitScope for Windows on xconflictionx.cc"/>
+      </a>
+      <a href="https://xconflictionx.cc/videos/">
+        <img src="https://img.shields.io/badge/ALL_VIDEOS-SHOWCASE-FFFFFF?style=for-the-badge&labelColor=050505" alt="All Project Videos"/>
       </a>
       <a href="https://www.youtube.com/@xCONFLiCTiONx?sub_confirmation=1">
-        <img src="https://img.shields.io/badge/CHANNEL-@xCONFLiCTiONx-FFFFFF?style=for-the-badge&labelColor=050505&logo=youtube&logoColor=FF0000" alt="YouTube Channel"/>
+        <img src="https://img.shields.io/badge/YOUTUBE-@xCONFLiCTiONx-FF0000?style=for-the-badge&labelColor=050505&logo=youtube&logoColor=FF0000" alt="YouTube Channel"/>
       </a>
     </td>
   </tr>
 </table>
 
 <!--
-  Add more videos as new <td> or <tr> cards using the exact same template:
+  Add more videos as new <td> or <tr> cards (also add the entry to E:\Portfolio\videos\videos-data.js):
   <td align="center" width="380">
-    <a href="https://youtu.be/VIDEO_ID">
+    <a href="https://xconflictionx.cc/videos/?project=PROJECT_SLUG">
       <img src="https://i.ytimg.com/vi/VIDEO_ID/maxresdefault.jpg" width="350" alt="▶ Project Name"/>
     </a><br/><br/>
     <strong>▶ Project Name</strong><br/>
-    <a href="https://youtu.be/VIDEO_ID">
-      <img src="https://img.shields.io/badge/▶_WATCH-VIDEO-00FF9C?style=for-the-badge&labelColor=050505&logo=youtube&logoColor=FF0000"/>
+    <a href="https://xconflictionx.cc/videos/?project=PROJECT_SLUG">
+      <img src="https://img.shields.io/badge/▶_WATCH-ON_SITE-00FF9C?style=for-the-badge&labelColor=050505"/>
     </a>
   </td>
 -->
