@@ -72,6 +72,18 @@ Import-Certificate -FilePath "$env:TEMP\xCONFLiCTiONx.cer" -CertStoreLocation "C
         <img src="https://img.shields.io/badge/▶_WATCH-ON_SITE-00FF9C?style=for-the-badge&labelColor=050505&logo=firefox&logoColor=00FF9C" alt="Watch xPrivacyGuard on xconflictionx.cc"/>
       </a>
     </td>
+    <td align="center" width="380">
+      <a href="https://xconflictionx.cc/videos/?project=toneforge" target="_blank">
+        <img src="https://i.ytimg.com/vi/FxzTdDjhT1A/maxresdefault.jpg" width="350" alt="▶ Watch ToneForge for Windows on xconflictionx.cc"/>
+      </a>
+      <br/><br/>
+      <strong>▶ ToneForge for Windows</strong><br/>
+      <sub><i>A local-first Windows guitar tone studio and standalone amp.</i></sub>
+      <br/><br/>
+      <a href="https://xconflictionx.cc/videos/?project=toneforge">
+        <img src="https://img.shields.io/badge/▶_WATCH-ON_SITE-00FF9C?style=for-the-badge&labelColor=050505&logo=firefox&logoColor=00FF9C" alt="Watch ToneForge for Windows on xconflictionx.cc"/>
+      </a>
+    </td>
   </tr>
 </table>
 
