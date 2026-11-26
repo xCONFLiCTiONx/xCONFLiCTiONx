@@ -61,18 +61,6 @@ Import-Certificate -FilePath "$env:TEMP\xCONFLiCTiONx.cer" -CertStoreLocation "C
 <table>
   <tr>
     <td align="center" width="380">
-      <a href="https://xconflictionx.cc/videos/?project=gitscope" target="_blank">
-        <img src="https://i.ytimg.com/vi/-P-X7oupI_Y/maxresdefault.jpg" width="350" alt="▶ Watch GitScope for Windows on xconflictionx.cc"/>
-      </a>
-      <br/><br/>
-      <strong>▶ GitScope for Windows</strong><br/>
-      <sub><i>Native Windows Git visualization &amp; workflow diagnostics</i></sub>
-      <br/><br/>
-      <a href="https://xconflictionx.cc/videos/?project=gitscope">
-        <img src="https://img.shields.io/badge/▶_WATCH-ON_SITE-00FF9C?style=for-the-badge&labelColor=050505&logo=firefox&logoColor=00FF9C" alt="Watch GitScope for Windows on xconflictionx.cc"/>
-      </a>
-    </td>
-    <td align="center" width="380">
       <a href="https://xconflictionx.cc/videos/?project=xprivacyguard" target="_blank">
         <img src="https://i.ytimg.com/vi/heFbevJgb30/maxresdefault.jpg" width="350" alt="▶ Watch xPrivacyGuard on xconflictionx.cc"/>
       </a>
